@@ -1,0 +1,108 @@
+@import url(general.css);
+
+#skip_links, #print_preview
+{
+display: none;
+}
+
+html,body
+{
+background-color: #fff;
+font-family: Georgia, "Bookman Old Style", Verdana; font-size: 1em; color: #323232;
+}
+#container *
+{
+padding-left: 60px; /* everything inside the container */
+}
+#container * *
+{
+padding-left: 0px; /* everything 2 levels inside the container */
+}
+dl dt
+{
+font-weight: bold;
+}
+
+
+/* links */
+a
+{
+font-size: 13px;
+}
+a:hover
+{
+text-decoration: underline;
+}
+a:link, a:visited, a:active, a:hover
+{
+text-decoration: underline; color: #285C80;
+}
+
+
+/* headings */
+h1
+{
+background-color: #AA0C09;
+padding: 75px 0;
+}
+h1 a
+{
+font-size: 1em !important;
+color: #fff !important;
+text-decoration: none !important;
+}
+
+p
+{
+margin: 1em 0;
+text-align: justify;
+}
+
+
+/* containers */
+#navigation
+{
+border-top: 13px solid #285C80;
+border-bottom: 13px solid #418CBE;
+background-color: #37749D;
+}
+#navigation li, #footer ul li
+{
+display: inline;
+}
+#navigation li a, #footer ul li a
+{
+margin-right: 40px;
+line-height: 30px;
+color: #fff;
+font-size: 12px;
+font-weight: bold;
+font-variant: small-caps;
+text-decoration: underline;
+}
+#navigation li a:hover, #footer ul li a:hover
+{
+text-decoration: none;
+}
+
+#content
+{
+float: left;
+width: 75%;
+}
+#sub_information
+{
+width: 20%;
+float: right;
+margin-right: 20px;
+}
+
+
+#footer 
+{
+margin-top: 30px;
+clear: both;
+border-top: 13px solid #285c80;
+background-color: #AA0C09;
+padding: 75px 0 75px 60px;
+}

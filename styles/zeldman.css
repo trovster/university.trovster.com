@@ -1,0 +1,223 @@
+@import url(general.css);
+
+#skip_links, #print_preview
+{
+display: none;
+}
+
+html,body
+{
+background: #ddb url(../images/styles/zeldman/holder.gif) repeat-y;
+width: 742px;
+margin: 0 auto;
+color: #663;
+font: small/1.4 "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+}
+body
+{
+width: 742px;
+}
+
+
+/* general */
+ul li
+{
+list-style: none;
+}
+p
+{
+clear: both;
+margin: 0 0 1em 0;
+line-height: 140%;
+text-align: justify;
+}
+dl dt
+{
+font-weight: bold;
+}
+ol
+{
+margin-left: 25px;
+}
+table td
+{
+border-color: #cc9;
+}
+ 
+/* headers */
+h1
+{
+position: relative;
+height: 50px;
+width: 700px;
+background: #cc9;
+margin-left: 12px;
+}
+h1 a
+{
+display: block;
+width: 700px;
+height: 50px;
+font-size: 1px;
+}
+h1 a:hover
+{
+background-color: #cca;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/zeldman/logohed.gif) no-repeat 0 0;
+}
+h2, h3, h4, h5, h6
+{
+font-weight: bold;
+line-height: 1.2em;
+margin-bottom: 15px;
+}
+h2
+{
+background: transparent url(../images/styles/zeldman/permaleaf.gif) no-repeat 0 45%;
+padding-left: 35px;
+}
+h3
+{
+background: transparent url(../images/styles/zeldman/timestamp.gif) no-repeat 0 45%;
+padding-left: 30px;
+}
+h3:hover
+{
+background: transparent url(../images/styles/zeldman/timestampa.gif) no-repeat 0 45%;
+}
+#sub_information h3
+{
+font-size: 90%;
+background: #AB8;
+padding: 5px 5px 3px;
+color: #fff;
+font-weight: normal;
+text-transform: uppercase;
+margin: 10px 0 5px;
+letter-spacing: 5px;
+}
+
+
+/* links */
+a:link, a:visited, a:hover, a:active
+{
+font-weight: bold; 
+text-decoration: none;
+background: transparent; 
+}
+a:link, a:visited
+{
+color: #785;
+}
+a:hover
+{
+color: #530;
+}
+a:active
+{
+color: #785;
+}
+#content a, #sub_information a
+{
+text-decoration: underline;
+}
+
+
+/* containers */
+#container
+{
+background: transparent url(../images/styles/zeldman/wrapinner.gif) repeat-y;
+}
+#content_container
+{
+padding: 210px 12px 10px;
+width: 700px;
+background: transparent url(../images/styles/zeldman/leaves.jpg) no-repeat 12px 0;
+}
+#navigation ul
+{
+background: #eed;
+height: 30px;
+width: 712px;
+margin-left: 2px;
+font-size: 120%;
+text-transform: lowercase;
+}
+#navigation ul li
+{
+float: left;
+}
+#navigation ul li a
+{
+display: block;
+padding: 3px 10px;
+color: #D5D5B9;
+}
+#navigation ul li.last a
+{
+padding-right: 0;
+}
+#navigation ul li.active a, #navigation ul li a:hover
+{
+color: #885;
+}
+#content, #content_2
+{
+float: left;
+width: 430px;
+}
+#sub_information
+{
+float: right;
+width: 230px;
+padding: 10px;
+margin-top: -255px;
+}
+#page-id-home #sub_information
+{
+margin-top: -605px;
+}
+#footer
+{
+clear: both;
+width: 700px;
+border-top: 10px solid #eed;
+margin-left: 12px;
+border-bottom: 12px solid #eed;
+}
+#footer ul
+{
+border-top: 1px solid #bb8;
+background: #cc9 url(../images/styles/zeldman/author.gif) no-repeat 0 0;
+color: #663;
+padding: 13px 100px 13px 45px;
+}
+#footer ul li
+{
+display: inline;
+padding: 0 5px;
+}
+
+/* page stylings */
+#abbreviations_list li
+{
+float: left;
+padding: 3px 0;
+width: 110px;
+}
+#accesskeys_list
+{
+margin-bottom: 20px;
+}
+#accesskeys_list dt
+{
+width: 20px;
+float: left;
+margin-right: 5px;
+}

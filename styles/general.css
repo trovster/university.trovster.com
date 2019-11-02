@@ -1,0 +1,183 @@
+@import url(style_list.css);
+*
+{
+margin: 0;
+padding: 0;
+}
+
+blockquote p:before, blockquote p:after
+{
+content: "\"";
+}
+blockquote p:last-child::before, blockquote p:last-child::after
+{
+content: "";
+}
+abbr, acronym
+{
+cursor: help;
+text-decoration: underline;
+border: 0;
+}
+h6
+{
+font-size: 1em;
+margin-bottom: -1em;
+}
+
+caption
+{
+display: none;
+}
+ol
+{
+margin-left: 20px;
+}
+pre
+{
+white-space: pre-wrap;       /* css-3 */
+white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+pre code
+{
+display: block;
+}
+pre code, .example
+{
+padding: 1em;
+}
+
+table
+{
+width: 100%;
+border-collapse: collapse;
+}
+table tr, table td, table th
+{
+text-align: center;
+padding: 5px 5px;
+}
+table td
+{
+border: 1px solid #000;
+}
+
+#interview_list li.active
+{
+font-weight: bold;
+}
+#interview_list li.active ul
+{
+font-weight: normal;
+}
+#interview_list .active ul li
+{
+margin-left: 10px;
+}
+#copyright
+{
+font-style: italic;
+border-top: 1px solid #ccc;
+margin-top: 2em;
+}
+#sitemap ul
+{
+margin-left: 1em;
+}
+#sitemap li
+{
+font-weight: bold;
+}
+#sitemap ul li
+{
+font-weight: normal;
+}
+
+
+.structure, .level_odd, .level_even
+{
+padding: 10px;
+margin: 5px 0;
+border: 1px solid #ccc;
+}
+.structure pre, .structure code, .structure pre code,
+.level_even pre, .level_even code, .level_even pre code,
+.level_odd pre, .level_odd code, .level_odd pre code
+{
+margin: 0;
+padding: 0;
+}
+
+.level_odd
+{
+background-color: #efefef;
+}
+.structure, .level_even
+{
+background-color: #fff;
+}
+.structure code, .structure pre code,
+.level_even code, .level_even pre code,
+.level_odd code, .level_odd pre code
+{
+background-color: transparent;
+}
+
+dt:target, dt:target + dd
+{
+border: 1px solid #ccc;
+background-color: #efefef;
+}
+dt:target
+{
+border-bottom: 0;
+}
+dt:target + dd
+{
+border-top: 0;
+}
+#interview dt:target
+{
+text-decoration: none;
+}
+
+form, fieldset
+{
+border: 0;
+}
+legend
+{
+display: none;
+}
+
+dl.inline_list dt, dl#media_types dt
+{
+float: left;
+margin-right: 5px;
+}
+
+
+ul#browsers li
+{
+margin: 1em 0;
+}
+
+
+#content p
+{
+overflow: hidden;
+}
+
+
+#abbreviations dl dt
+{
+float: left;
+margin-right: 5px;
+}
+#abbreviations dl dt:after
+{
+content: " -";
+}

@@ -1,0 +1,134 @@
+@import url(general.css);
+
+/* on screen add a border to simulate the mobile device and add a resonable width */
+@media screen
+{
+	#container
+	{
+	width: 250px;
+	border: 1px solid #000;
+	}
+}
+
+#print_preview, caption, #page-id-glossary #sub_information
+{
+display: none;
+}
+
+#container
+{
+text-align: justify;
+margin: 0 auto;
+padding: 5px;
+font-size: 12px;
+}
+
+
+h1
+{
+font-size: 20px;
+text-align: center;
+}
+h1 a
+{
+text-decoration: none;
+color: #3C62AE;
+}
+h2
+{
+margin-bottom: 10px;
+}
+h3,h4,h5,h6
+{
+font-size: 12px;
+margin: 5px 0;
+}
+pre code, .example
+{
+padding: 5px 0;
+font-size: 10px;
+}
+pre code
+{
+background-color: #eee;
+}
+p
+{
+padding: 5px 0;
+font-size: 12px;
+}
+.odd
+{
+background-color: #eee;
+}
+dl dt
+{
+font-weight: bold;
+}
+
+
+#content_container, h1
+{
+margin: 10px 0;
+}
+#content
+{
+margin-bottom: 10px;
+}
+ul
+{
+list-style: none;
+text-align: center;
+}
+ul li, #sub_information, #accesskeys_list dd
+{
+border: 1px solid #76B7D5;
+}
+ul li, #accesskeys_list dd
+{
+display: block;
+border-bottom: 0;
+}
+ul li a
+{
+color: #000;
+}
+#navigation ul li.last, #footer ul li.last, #sub_information h3
+{
+border-bottom: 1px solid #76B7D5;
+}
+#navigation ul li.active, #footer ul li.active, #sub_information h3
+{
+background-color: #76B7D5;
+}
+#navigation ul li.active a, #footer ul li.active a, #sub_information h3
+{
+color: #fff;
+}
+#sub_information h3
+{
+margin: 0;
+text-align: center;
+}
+#sub_information ul li, #accesskeys_list dd
+{
+border-left: 0;
+border-right: 0;
+}
+ul#skip_links li, .style_list li
+{
+border: 0;
+text-align: left;
+}
+
+#accesskeys_list
+{
+}
+
+#accesskeys_list dt
+{
+clear: left;
+float: left;
+width: 15px;
+text-align: center;
+}

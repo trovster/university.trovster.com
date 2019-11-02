@@ -1,0 +1,215 @@
+@import url(general.css);
+
+#skip_links, #print_preview, h2
+{
+display: none;
+}
+
+html
+{
+background: #fff url(../images/styles/wdik/back.gif) repeat;
+height: 100%;
+padding-bottom: 1px;
+}
+body
+{
+text-align: center;
+font-family: Georgia, "Times New Roman", Times, serif;
+color: #333;
+line-height: 1.4;
+font-size: small;
+padding-bottom: 15px;
+}
+
+p
+{
+line-height: 140%;
+padding-bottom: 1em;
+text-align: left;
+}
+ul li
+{
+color: #333;
+line-height: 1.4;
+margin-bottom: 0.5em;
+list-style: none;
+/*
+list-style: outside square url(../images/styles/wdik/listbullet.gif);
+*/
+}
+dl dt
+{
+font-weight: bold;
+}
+table td
+{
+border: 1px solid #d5d5d5;
+}
+table tr:hover
+{
+background-color: #eee;
+}
+
+/* headers */
+h1
+{
+position: relative;
+text-align: center;
+height: 81px;
+background-color: #fff;
+padding: 18px 145px 10px 0;
+font-size: 1em;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/wdik/header.gif) no-repeat 0 0;
+}
+
+
+/* links */
+a, a:visited, a:link, a:active, a:hover
+{
+color: #069;
+text-decoration: none;
+}
+a:visited
+{
+color:#999;
+}
+a:active, a:hover
+{
+color: #69C;
+}
+#content a:hover
+{
+border-bottom: 1px #69C solid;
+}
+
+
+
+/* containers */
+#container
+{
+width: 594px;
+margin: 0 auto 14px auto;
+text-align: left;
+border: 1px dotted #999;
+border-top: 0;
+background-color: #fff;
+padding: 0 12px;
+}
+
+#navigation
+{
+margin-top: 4px;
+background: transparent url(../images/styles/wdik/masthead.gif) no-repeat 49% 1px;
+padding-top: 26px;
+border: 1px solid #d5d5d5;
+}
+#navigation ul
+{
+border-top: 1px solid #d5d5d5;
+position: relative;
+padding-top: 6px;
+height: 17px;
+font-size: 0.75em;
+background: #eee url(../images/styles/wdik/stripe.gif) repeat;
+}
+#navigation ul li
+{
+float: left;
+padding: 0;
+margin: 0;
+}
+#navigation ul li a
+{
+color: #000;
+font-weight: bold;
+text-transform: uppercase;
+border-right: 1px solid #d5d5d5;
+padding: 6px 4px 4px;
+background-color: #fff;
+}
+#navigation ul li a.last
+{
+border: 0;
+}
+#navigation ul li a:hover
+{
+background: #eee;
+}
+
+#content_container
+{
+clear: left;
+position: relative;
+margin-top: 1px;
+background: #fff url(../images/styles/wdik/back_faux.gif) repeat-y;
+border-top: 1px solid #d5d5d5;
+border-bottom: 1px solid #d5d5d5;
+width: 585px;
+padding: 5px;
+}
+#content, #content_2
+{
+width: 400px;
+_height: 400px;
+min-height: 400px;
+margin-left: 190px;
+}
+#sub_information
+{
+position: absolute;
+top: 0;
+width: 170px;
+padding: 5px;
+font-size: x-small;
+}
+#footer ul
+{
+clear: both;
+font-size: x-small;
+text-align: center;
+padding: 10px;
+}
+#footer ul li
+{
+list-style: none;
+display: inline;
+padding: 0 10px;
+}
+
+
+#page-id-home #content, #page-id-home #content_2
+{
+min-height: 0;
+}
+#page-id-home #content_2
+{
+padding-bottom: 50px;
+}
+#page-id-home #sub_information
+{
+font-size: small;
+}
+
+
+#abbreviations_list li
+{
+float: left;
+padding: 3px 0;
+width: 75px;
+}
+#accesskeys_list
+{
+margin-bottom: 20px;
+}
+#accesskeys_list dt
+{
+width: 10px;
+float: left;
+margin-right: 5px;
+}

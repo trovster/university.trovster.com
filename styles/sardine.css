@@ -1,0 +1,150 @@
+@import url(general.css);
+
+#skip_links, #print_preview
+{
+display: none;
+}
+
+html,body
+{
+background: #C1C1BB url(../images/styles/sardine/bg.gif) repeat;
+color: #000; 
+font-family: Georgia, Times New Roman, serif;					
+font-size: 80%; 
+line-height: 1.5em;
+text-align: center; 
+}
+html
+{
+height: 100%;
+padding-bottom: 1px;
+}
+
+
+/* generals */
+p					
+{
+font-size: 1.2em; 
+margin: 0 0 1em 0; 
+padding: 0; 
+}
+abbr, acronym 		
+{
+border-bottom: 1px dotted #333; 
+cursor: help; 
+}
+
+/* anchors */
+a 						
+{ 
+text-decoration: underline; 
+background: transparent; 
+}
+a:link 				
+{ 
+color: #295170; 
+}
+a:active, a:hover		
+{
+color: #d6000e; 
+}
+a:visited 			
+{
+color: #98003d; 
+}
+
+
+/* headers */
+h1
+{
+position: relative;
+height: 241px;
+}
+h1 span
+{
+position: absolute;
+height: 100%;
+width: 100%;
+background: transparent url(../images/styles/sardine/title.jpg) no-repeat 0 0;
+}
+h3
+{ 
+font-size: 1.2em;	
+color: #600; 
+}
+
+/* containers */
+#container
+{
+text-align: left;
+width: 780px;
+margin: 0 auto;  
+background-color: #fff;
+border: 10px solid #fff; 
+color: #333;
+}
+#content_container
+{
+position: relative;
+clear: left;
+background: #fff url(../images/styles/sardine/faux.gif) repeat-y;
+}
+#content, #content_2
+{
+width: 530px;
+}
+#sub_information
+{
+padding: 30px 10px 0px 0px;
+width: 180px;
+position: absolute;
+top: 0;
+right: 0;
+}
+
+
+/* navigation */
+#navigation ul
+{
+list-style: none;
+height: 2.5em;
+line-height: normal;
+background: #000 url(../images/styles/sardine/nav_bg.jpg) no-repeat 0 0;
+text-transform: uppercase;
+color: #fff;;		
+padding-left: 5px;			
+}				
+#navigation ul li
+{ 
+float: left;
+padding: 0.3em 0.5em;
+}						
+#navigation ul li a 
+{ 
+float: left;
+font-weight: bold;
+font-size: 0.9em;
+text-decoration: none;
+color: #fff;
+padding: 0.5em 0.5em;
+}
+#navigation ul li a:hover				
+{ 
+color: #7dbae8;
+}
+
+#footer
+{
+clear: both;
+padding: 0.5em;
+border-top: 10px solid #fff; 
+text-align: center;
+background-color: #D3D0C9;
+height: 18px;
+color: #636163;
+}
+#footer ul li
+{
+display: inline;
+margin: 0 10px;
+}

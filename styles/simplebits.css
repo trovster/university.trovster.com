@@ -1,0 +1,205 @@
+@import url(general.css);
+
+#skip_links, #print_preview, h2
+{
+display: none;
+}
+
+html, body
+{
+font-family: Verdana, sans-serif;
+line-height: 1.5em;
+color: #333;
+background: #666;
+font-size: small;
+}
+
+a:link
+{
+color: #49669C;
+}
+a:visited
+{
+color: #8EA4C2;
+}
+a:hover
+{
+color: #036;
+}
+
+p
+{
+margin: 1em 0 1em;
+text-align: justify;
+clear: left;
+}
+ul
+{
+list-style: none;
+}
+ol
+{
+margin-left: 25px;
+}
+dl dt
+{
+font-weight: bold;
+}
+table td
+{
+border-color: #ccc;
+}
+
+/* headers */
+h1
+{
+position: relative;
+height: 63px;
+_height: 50px;
+background: #FFC15B;
+}
+h1 span
+{
+position: absolute;
+height: 63px;
+width: 100%;
+background: transparent url(../images/styles/simplebits/title.gif) no-repeat 0 0;
+}
+h3
+{
+font-family: "Trebuchet MS", Verdana, sans-serif;
+font-size: 140%;
+color: #930;
+}
+
+#container
+{
+width: 750px;
+margin: 0 auto;
+padding: 0 16px;
+background: #666 url(../images/styles/simplebits/column.gif) repeat-y;
+}
+#navigation
+{
+background: #fff url(../images/styles/simplebits/nav.gif) repeat-x;
+padding-top: 5px;
+height: 26px;
+}
+#navigation ul li
+{
+float: left;
+text-transform: lowercase;
+font-size: x-small;
+}
+#navigation ul li a
+{
+border-right: 1px solid #ccc;
+padding: 9px 10px;
+color: #000;
+text-decoration: none;
+}
+#navigation ul li.active a, #navigation ul li a:hover
+{
+background-color: #fff;
+}
+#navigation ul li.active a
+{
+font-weight: bold;
+}
+#content_container
+{
+background: #eee url(../images/styles/simplebits/container.gif) no-repeat 0 0;
+padding-top: 300px;
+width: 750px;
+position: relative;
+}
+#content, #content_2
+{
+width: 470px;
+padding: 0 20px 20px;
+background-color: #fff;
+}
+#content
+{
+float: left;
+margin-top: -275px;
+}
+#sub_information
+{
+position: absolute;
+top: 25px;
+right: 20px;
+width: 200px;
+}
+
+
+#sub_information a:link
+{
+color: #6E5C4F;
+}
+#sub_information a:visited
+{
+color: #9D9187;
+}
+#sub_information a:hover
+{
+color: #333;
+}
+#sub_information h3
+{
+font-size: 110%;
+padding-left: 19px;
+margin: 20px 0 5px 0;
+color: #930;
+border: none;
+background: url(../images/styles/simplebits/cube_birch.gif) no-repeat 0 5px;
+}
+#footer
+{
+clear: both;
+padding-top: 20px;
+}
+#footer ul
+{
+border-top: 1px solid #000;
+color: #666;
+background: #333;
+padding: 8px 15px;
+}
+#footer ul li
+{
+display: inline;
+padding: 0 5px;
+}
+#footer ul li a
+{
+color: #888;
+}
+#footer ul li a:hover
+{
+color: #ccc;
+}
+
+code
+{
+color: #c63;
+font-size: 110%;
+line-height: 1.2em;
+text-align: left;
+}
+#abbreviations_list li
+{
+float: left;
+width: 100px;
+padding: 3px 0;
+}
+#accesskeys_list
+{
+margin-bottom: 20px;
+}
+#accesskeys_list dt
+{
+width: 20px;
+float: left;
+margin-right: 5px;
+}

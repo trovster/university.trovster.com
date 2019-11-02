@@ -1,0 +1,58 @@
+dl#msn dt:after
+{
+content: " says:";
+}
+dl#msn dd
+{
+margin-left: 20px;
+}
+dl#msn dt
+{
+color: #666;
+}
+dl#msn dd.havard
+{
+font-family: Lucida Sans Unicode;
+color: #0000AD;
+}
+dl#msn dd.trovster
+{
+font-family: Arial;
+color: #004080;
+}
+
+dl#irc dt, dl#irc dd
+{
+font-family: monospace;
+}
+dl#irc dt:before
+{
+content: "<";
+}
+dl#irc dt:after
+{
+content: ">";
+}
+dl#irc dt
+{
+float: left;
+margin-right: 10px;
+}
+dl#irc dd
+{
+margin-left: 20px;
+}
+
+
+div#quote q:after, div#quote q:before
+{
+content: "";
+}
+div#quote cite:after
+{
+content: ": ";
+}
+div#quote q
+{
+display: block;
+}

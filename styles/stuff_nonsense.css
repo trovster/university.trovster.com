@@ -1,0 +1,253 @@
+@import url(general.css);
+
+#skip_links, h2
+{
+display: none;
+}
+
+html
+{
+background: #000 url(../images/styles/stuff_nonsense/body-bg.gif) repeat;
+height: 100%;
+margin-bottom: 1px;
+}
+body
+{
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+font-size: 70%;
+text-align: center;
+color: #666;
+}
+
+h2, h3, h4, h5, h6 p, address, blockquote, dl, ul, ol
+{
+padding: 0.5em 10px;
+}
+p 
+{
+font-size: 100%;
+line-height: 150%;
+}
+blockquote 
+{
+margin-left: 10px;
+border-left: 1px solid #ccc;
+}
+blockquote p
+{
+padding-left: 0;
+}
+pre 
+{
+padding: 0.5em 30px;
+}
+pre, code
+{
+font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+font-size: 100%;
+}
+abbr, acronym
+{
+text-decoration: none;
+border-bottom: 1px dotted #ccc;
+cursor: help;
+}
+ul li
+{
+list-style: none;
+}
+dl dt
+{
+font-weight: bold;
+}
+table td
+{
+border-color: #BFAD96;
+}
+
+/* headings */
+h3, h4
+{
+font-family: Arial, Helvetica, sans-serif; 
+font-weight: normal;
+letter-spacing: -1px;
+color: #333;
+}
+h1
+{
+position: relative;
+height: 195px;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/stuff_nonsense/logo.gif) no-repeat 0 0;
+}
+h3
+{
+font-size: 150%;
+margin-bottom: 20px;
+}
+h4
+{
+font-size: 130%;
+}
+h5
+{
+font-size: 110%;
+}
+
+
+#sub_information h3
+{
+margin-bottom: 0;
+}
+
+/* links */
+a:link, a:visited
+{
+color: #900;
+text-decoration: none;
+}
+a:hover
+{
+color: #c00;
+text-decoration: underline;
+}
+#navigation a, #footer a, #print_preview a
+{
+color: #e9e2da;
+}
+#navigation a:link
+{
+font-weight: normal;
+text-decoration: none;
+}
+#footer a, #print_preview a
+{
+text-decoration: underline;
+}
+
+#navigation li a:link, #navigation li a:visited
+{
+float: left;
+margin-right: 10px;
+padding: 2px 0 2px 0;
+font-size: 82%;
+font-weight: bold;
+text-transform: uppercase;
+color: #fff;
+}
+#navigation li a:hover
+{
+background: url(../images/styles/stuff_nonsense/nav-main-a-bg.gif) repeat-x left bottom;
+text-decoration: none;
+}
+
+
+/* containers */
+#container
+{
+position: relative;
+margin: 0 auto;
+width: 780px;
+text-align: left;
+}
+#navigation
+{
+background: transparent url(../images/styles/stuff_nonsense/nav_bg.gif) no-repeat 0 0;
+padding: 0 0 80px 280px;
+overflow: hidden;
+height: 10px;
+width: 500px;
+}
+#navigation ul li
+{
+float: left;
+text-transform: uppercase;
+}
+#navigation ul li a
+{
+display: block;
+}
+#content_container
+{
+clear: left;
+background: transparent url(../images/styles/stuff_nonsense/content-bg.gif) repeat-y;
+}
+#content, #content_2
+{
+margin-left: 250px;
+width: 490px;
+margin-top: -30px;
+min-height: 400px;
+_height: 400px;
+padding-left: 20px;
+}
+#content_2
+{
+margin-top: 20px;
+}
+#page-id-home #content, #page-id-home #content_2
+{
+min-height: 0;
+_height: 0;
+}
+#sub_information
+{
+padding: 0 10px;
+position: absolute;
+top: 300px;
+width: 200px;
+}
+
+#footer
+{
+clear: both;
+padding: 40px 0 20px 0;
+margin-top: -2px;
+background: transparent url(../images/styles/stuff_nonsense/footer.gif) no-repeat 0 0;
+}
+#footer ul
+{
+font-size: 82%;
+text-transform: uppercase;
+text-align: right;
+}
+
+
+#print_preview
+{
+position: absolute;
+top: 250px;
+left: 10px;
+padding: 10px 30px 20px 20px;
+background: #000 url(../images/styles/stuff_nonsense/content-sub-p-bg.gif) no-repeat left bottom;
+font-size: 90%;
+line-height: 140%;
+width: 170px;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+
+
+/* specifics */
+#abbreviations_list li
+{
+float: left;
+padding: 3px 0;
+width: 80px;
+}
+#accesskeys_list
+{
+margin-bottom: 20px;
+}
+#accesskeys_list dt
+{
+width: 20px;
+float: left;
+margin-right: 5px;
+}

@@ -1,0 +1,139 @@
+@import url(general.css);
+
+#skip_links, #print_preview
+{
+display: none;
+}
+
+body
+{
+border-top: 15px solid #000;
+border-bottom: 15px solid #000;
+background: #fff url(../images/styles/garden_party/background.gif) 0 50% repeat-y;
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+p
+{
+padding: 0 0 1em 0;
+}
+ul li
+{
+list-style: none;
+}
+
+/* links */
+a
+{	
+color: #fff;
+text-decoration: none;
+}
+a:hover
+{
+text-decoration: overline;
+}
+
+/* headers */
+h1
+{
+position: relative;
+height: 270px;
+width: 375px;
+float: left;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/garden_party/logo.gif) no-repeat 0 0;
+}
+h2
+{
+padding: 10px 0 20px 395px;
+}
+
+/* containers */
+#container
+{
+position: relative;
+margin: 0 auto;
+width: 750px;
+background: #fff url(../images/styles/garden_party/lines.gif) repeat-y;
+}
+#navigation
+{
+position: absolute;
+top: 270px;
+left: 90px;
+width: 280px;
+}
+#navigation a, #sub_information h3, #sub_information ul a
+{
+display: block;
+font-size: x-large;
+}
+#content_container
+{
+min-height: 700px;
+background: transparent url(../images/styles/garden_party/crossing.gif) no-repeat 0 100%;
+padding-bottom: 100px;
+}
+#sub_information
+{
+position: absolute;
+top: 470px;
+left: 90px;
+width: 280px;
+}
+#content, #content_2, #page-id-home #sub_information
+{
+padding: 0 77px 0 395px;
+}
+#page-id-home #sub_information
+{
+margin-left: 395px;
+padding-left: 0;
+position: relative;
+top: 0;
+left: 0;
+}
+
+#footer
+{
+clear: both;
+background: #fff url(../images/styles/garden_party/footer.gif) no-repeat 0 0;
+padding-top: 100px;
+}
+#footer ul
+{
+height: 100px;
+padding: 0 0 0 390px;
+background: #fff url(../images/styles/garden_party/lines3.gif) repeat-y;
+}
+#footer ul li
+{
+list-style: none;
+float: left;
+padding: 0 10px;
+}
+
+/* other styles */
+#abbreviations_list li
+{
+float: left;
+width: 100px;
+padding: 3px 0;
+}
+#accesskeys_list
+{
+margin-bottom: 20px;
+}
+#accesskeys_list dt
+{
+width: 20px;
+float: left;
+margin-right: 5px;
+}

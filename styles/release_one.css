@@ -1,0 +1,249 @@
+@import url(general.css);
+
+html,body
+{
+background: #d8d8d8 url(bg.gif) repeat-y top left;
+font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+color: #666;
+font-size: 11px;
+}
+
+#print_preview
+{
+display: none;
+}
+
+ul
+{
+list-style: none;
+}
+a, a:link, a:visited
+{
+background: transparent;
+color: #333;
+text-decoration: underline;
+}
+a:hover
+{
+background: transparent;
+color: #333;
+text-decoration: none;
+}
+a[href^="http://"]
+{
+background: transparent url(../images/styles/external_link.gif) no-repeat 100% 50%;
+padding-right: 10px;
+}
+p, dl, #content ul, pre, ol
+{
+padding: 5px 10px 15px;
+}
+ol
+{
+margin-left: 25px;
+}
+blockquote
+{
+margin-left: 20px;
+border-left: 2px solid #888;
+}
+table
+{
+margin: 10px;
+width: 485px;
+}
+
+dl dt
+{
+font-weight: bold;
+}
+code
+{
+background-color: #ddd;
+}
+
+/* headers */
+h1
+{
+background-color: #9BEC37;
+position: relative;
+width: 100%;
+height: 180px;
+border-bottom: 2px solid #fff;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/release_one/bg_header.gif) no-repeat 0 0;
+}
+h1 a
+{
+font-size: 0;
+}
+h2,h3
+{
+font-size: 9px;
+font-weight: lighter;
+color: #fff;
+}
+h2
+{
+border-right: 2px solid #fff;
+height: 24px;
+padding-top: 10px;
+width: 462px;
+padding-left: 40px;
+background: #B5B5B5 url(../images/styles/release_one/page_title.gif) no-repeat 0 0;
+}
+h3
+{
+border-left: 2px solid #fff;
+padding: 6px;
+padding-right: 35px;
+text-align: right;
+background: #888 url(../images/styles/release_one/title_about.gif) no-repeat 0 0;
+}
+#sub_information h3
+{
+position: relative;
+z-index: 700;
+background: transparent;
+text-align: left;
+padding-left: 15px;
+border-left: 0;
+color: #000;
+}
+h4
+{
+padding: 10px;
+font-size: 14px;
+}
+h5,h6
+{
+padding: 5px 10px;
+font-size: 11px;
+}
+
+
+#container
+{
+position: relative;
+background: transparent url(../images/styles/release_one/bg_rel-one.gif) no-repeat bottom right;
+}
+#skip_links
+{
+position: absolute;
+top: 180px;
+border-right: 2px solid #fff;
+border-bottom: 2px solid #fff;
+background: #000 url(../images/styles/release_one/bg_sub_header.jpg) no-repeat 231px 2px;
+height: 138px;
+width: 703px;
+padding: 15px;
+}
+#skip_links a
+{
+color: #ccc;
+}
+#navigation, #sub_information
+{
+position: absolute;
+top: 351px;
+width: 207px;
+z-index: 500;
+height: 300px;
+padding: 11px 12px;
+}
+#navigation ul, #sub_information ul, #sub_information p, #sub_information dl
+{
+background: #DFDFDF url(../images/styles/release_one/flowers_title.gif) no-repeat 100% 0;
+border: 2px solid #fff;
+padding: 32px 14px 10px;
+}
+#navigation ul li, #sub_information ul li, #sub_information dt
+{
+padding: 7px 13px;
+background: transparent url(../images/styles/release_one/bullet_design.gif) no-repeat 0 10px;
+}
+#navigation ul li a, #sub_information ul li a, #sub_information p a, #sub_information dl a
+{
+text-decoration: none;
+}
+#navigation ul li a:hover, #sub_information ul li a:hover, #sub_information p a:hover, #sub_information dl a:hover
+{
+text-decoration: underline;
+}
+#content_container
+{
+padding-top: 168px;
+width: 504px;
+min-height: 450px;
+_height: 490px;
+padding-left: 231px;
+background: #fff url(../images/styles/release_one/bg_left.gif) repeat-y ;
+}
+
+#sub_information
+{
+top: 590px;
+left: 0;
+z-index: 600;
+}
+#sub_information ul, #sub_information p, #sub_information dl
+{
+background: #DFDFDF url(../images/styles/release_one/flowers.gif) no-repeat 100% 30%;
+margin-top: -30px;
+margin-bottom: 20px;
+}
+#sub_information ul ul
+{
+background: transparent;
+border: 0;
+}
+
+#content, #content_2
+{
+width: 502px;
+border-right: 2px solid #fff;
+}
+#footer
+{
+font-family: 'Arial', Helvetica, sans-serif;
+border-top: 2px solid #fff;
+background: #9BEC37 url(../images/styles/release_one/bg_footer.gif) no-repeat 0 0;
+padding: 8px 0 5px 250px;
+}
+#footer li
+{
+display: inline;
+font-size: 9px;
+margin-right: 10px;
+}
+#footer li a
+{
+background: transparent url(../images/styles/release_one/arrow_footer.gif) no-repeat 0 50%;
+padding-left: 8px;
+color: #fff;
+text-decoration: none;
+}
+
+#accesskeys_list dt
+{
+clear: left;
+float: left;
+width: 10px;
+}
+#accesskeys_list dt
+{
+padding: 5px 0 5px 15px;
+}
+#accesskeys_list dd
+{
+padding: 5px 0;
+}
+#accesskeys_list dd:before
+{
+content: "- ";
+}

@@ -1,0 +1,85 @@
+@import url(stopdesign.css);
+
+html,body
+{
+color: #444;
+background: #eee url(../images/styles/stopdesign_light/background.gif) repeat;
+}
+#footer, #skip_links
+{
+background: #ddd url(../images/styles/stopdesign_light/footer_bg.gif) repeat-x 0 -5px;
+}
+h1
+{
+background-color: #E7E6E4;
+}
+h1 span
+{
+background: transparent url(../images/styles/stopdesign_light/title.jpg) no-repeat 0 0;
+}
+h2
+{
+background: #cdc url(../images/styles/stopdesign_light/header_faux.gif) repeat-y;
+}
+#container
+{
+border-color: #bbb;
+background: #fff url(../images/styles/stopdesign_light/main_faux.gif) repeat-y;
+}
+#navigation ul
+{
+background: #ddd url(../images/styles/stopdesign_light/nav_bg.jpg) repeat-x;
+}
+#skip_links
+{
+background-position: 0 0;
+}
+code
+{
+background-color: #ddd;
+}
+.example
+{
+border-color: #ddd;
+background-image: url(../images/styles/stopdesign_light/example.gif);
+}
+
+#navigation ul, #footer
+{
+border: 1px solid #bbb;
+border-left: 0;
+border-right: 0;
+margin-bottom: -2px;
+}
+h2
+{
+color: #666;
+}
+
+#skip_links li a:hover
+{
+color: #000;
+}
+#navigation ul li, #footer li, blockquote
+{
+border-color: #bbb;
+}
+#navigation ul li a, #footer li a, #skip_links li a
+{
+color: #666;
+}
+#navigation ul li.active a, #navigation ul li.active a:hover, #navigation ul li a:hover,
+#footer li.active a, #footer li.active a:hover
+{
+color: #444;
+background: #fff url(../images/styles/stopdesign_light/nav_shadow.gif) no-repeat 0 0;
+}
+#navigation ulli a:hover
+{
+background: #ccc url(../images/styles/stopdesign_light/nav_shadow_2.gif) no-repeat 0 0;
+}
+
+#entities tr.odd
+{
+background-color: #ddd;
+}

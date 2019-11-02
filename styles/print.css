@@ -1,0 +1,118 @@
+@import url(general.css);
+
+/* on screen add a border to simulate the page and add a resonable width */
+@media screen
+{
+	#container
+	{
+	width: 695px;
+	border: 1px solid #000;
+	}
+}
+
+body
+{
+background-color: #fff;
+font: 14px/150% "Times New Roman", Times, serif; /* pixel size, and a serif font */
+}
+/* hide skip links, navigation, footer and other areas */
+#skip_links, #navigation, #print_preview, #footer, #sub_information ul, #sub_information dl, #sub_information h3,
+caption
+{
+display: none;
+}
+
+#container
+{
+text-align: justify;
+margin: 0 auto;
+padding: 20px 10px;
+}
+h2, h3, h4, h5, h6
+{
+margin: 1em 0;
+}
+p
+{
+margin: 1em 0;
+}
+ul
+{
+list-style: none;
+}
+a
+{
+color: #000;
+}
+abbr, acronym, a
+{
+text-decoration: none;
+}
+dl dt
+{
+font-weight: bold;
+}
+
+pre code, .example
+{
+font-size: 12px;
+padding-left: 0;
+}
+blockquote
+{
+border-left: 3px solid #ccc;
+margin-left: 5px;
+padding-left: 5px;
+}
+
+/* generated content */
+abbr:after, acronym:after
+{
+content: " (" attr(title) ") "; /* expand abbreviations */
+}
+a:after
+{
+font-size: 90%;
+}
+#content a[href^=""]:after
+{
+content: " ( http://university.trovster.com/" attr(href) " ) "; /* add my domain name to the links */
+}
+
+#content a[href^="http://"]:after
+{
+content: " ( " attr(href) " ) "; /* if the link is external (contains http://) then remove my domain name */
+}
+
+h1 a:after, cite a:after, h1 a:after, .style_list dl a:after
+{
+content: "" !important; /* no content on the "back to homepage" link */
+}
+
+#abbreviations_definitions dt, #sub_information #accesskeys_list dt
+{
+font-weight: bold;
+float: left;
+margin-right: 5px;
+}
+#abbreviations_definitions dt:after, #sub_information #accesskeys_list dt:after
+{
+content: " -";
+}
+
+#sub_information #accesskeys_list, h3#access_title, #page-id-home #sub_information h3
+{
+display: block !important;
+}
+
+table
+{
+width: 100%;
+border-collapse: collapse;
+}
+table tr, table th, table td
+{
+border: 1px solid #000;
+text-align: center;
+padding: 5px;
+}

@@ -1,0 +1,243 @@
+@import url(general.css);
+
+html,body
+{
+font-size: 0.8em;
+margin: 5px;
+_margin: 5px 10px;
+font-family: Verdana, Arial, Helvetica, Sans-Serif;
+background-color: #fff;
+color: #000;
+}
+ul
+{
+list-style: none;
+margin-left: 20px;
+}
+p, #content_container ul, ol, dl
+{
+font-size: 1em;
+}
+pre
+{
+font-size: 1.5em;
+margin-bottom: 1em;
+}
+dl dd p
+{
+font-size: 1em;
+}
+p, #content ul, #content ol, #content dl
+{
+margin: 1em 0;
+}
+dl dt
+{
+font-weight: bold;
+}
+#content p, #content ul, #content dt, pre, blockquote
+{
+margin-left: 25px;
+}
+ol
+{
+padding-left: 25px;
+}
+
+/* links */
+a:link, a:visited, a:active, a:hover
+{
+color: #903;
+}
+a:hover
+{
+background-color: #ccc;
+}
+
+
+/* headers */
+h1
+{
+padding: 10px 10px 4px;
+_padding-bottom: 9px;
+position: relative;
+background-color: #903;
+height: 45px;
+font-size: 1.5em;
+margin: 5px 0;
+}
+h1 span
+{
+position: absolute;
+height: 45px;
+width: 213px;
+background: transparent url(../images/styles/bradford_uni/title.gif) no-repeat 0 0;
+}
+h1 a
+{
+color: #fff !important;
+}
+h2, #sub_information
+{
+border: 1px solid #ccc;
+}
+h2
+{
+background-color: #903;
+color: #fff;
+font-size: 1.3em;
+text-align: center;
+width: 249px;
+padding-bottom: 2px;
+}
+h3, h4, h5, h6
+{
+color: #903;
+}
+h3
+{
+margin-bottom: 10px;
+}
+#content h3, #content_2 h3
+{
+font-size: 1.8em;
+}
+h4
+{
+font-size: 1.3em;
+}
+
+
+/* navigation */
+#navigation ul
+{
+background-color: #ccc;
+text-align: center;
+padding: 2px 0 4px;
+margin: 0;
+font-size: 1.2em;
+}
+#navigation ul li
+{
+display: inline;
+border-right: 1px solid #000;
+}
+#navigation li.last
+{
+border: 0;
+}
+#navigation li a
+{
+padding: 0 5px;
+color: #000;
+font-size: 0.8em;
+}
+#navigation li a:hover
+{
+color: #fff;
+background-color: #903;
+}
+#navigation li.active a, #navigation li.active a:hover
+{
+font-weight: bold;
+background-color: transparent;
+color: #903;
+text-decoration: none;
+}
+#content_container
+{
+position: relative;
+margin-top: 5px;
+min-height: 170px;
+}
+#content
+{
+margin-top: -20px;
+}
+#content, #content_2
+{
+margin-left: 274px;
+margin-bottom: 1em;
+}
+#sub_information
+{
+background-color: #FAFAEA;
+position: absolute;
+top: 19px;
+width: 229px;
+padding: 10px;
+}
+#sub_information a:link, #sub_information a:visited, #sub_information a:active
+{
+color: #000;
+}
+#sub_information a:hover
+{
+color: #903;
+}
+#sub_information li
+{
+margin: 5px 0;
+list-style-image: url(../images/styles/bradford_uni/grey.gif);
+}
+#footer
+{
+clear: both;
+border-top: 20px solid #ccc;
+padding-top: 5px;
+margin-top: 20px;
+text-align: right;
+}
+
+/* random stuff */
+#print_preview
+{
+position: absolute;
+top: -60px;
+right: 5px;
+z-index: 50;
+font-size: 1em;
+}
+#skip_links
+{
+float: right;
+position: relative;
+z-index: 50;
+width: 220px;
+text-align: right;
+margin: 5px;
+font-size: 1em;
+}
+#skip_links li
+{
+display: inline;
+}
+#skip_links a, #print_preview a
+{
+color: #fff !important;
+}
+#skip_links a:hover, #print_preview a:hover
+{
+color: #000 !important;
+}
+dl#abbreviations_definitions dt
+{
+margin-bottom: -10px;
+}
+dl#abbreviations_definitions dd
+{
+margin-bottom: 20px
+}
+dl#copyright dt, dl#accesskeys_list dt
+{
+float: left;
+margin-right: 5px;
+}
+dl#copyright dt:after, dl#accesskeys_list dd:before
+{
+content: " - ";
+}
+dl#accesskeys_list dt
+{
+width: 10px;
+}

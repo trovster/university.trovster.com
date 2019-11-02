@@ -1,0 +1,189 @@
+@import url(general.css);
+
+#skip_links, #print_preview
+{
+display: none;
+}
+
+html,body
+{
+background: #eee url(../images/styles/buddha/bg.gif) repeat-y;
+font: 11px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: #999;
+}
+
+/* general styles */
+p
+{
+font: 11px/14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+margin: 10px 0;
+}
+ul
+{
+list-style: none;
+}
+dl dt
+{
+font-weight: bold;
+}
+blockquote
+{
+padding-left: 5px;
+margin-left: 10px;
+border-left: 2px solid #fc0;
+}
+ol
+{
+margin-left: 25px;
+}
+
+a:link, a:visited, a:hover, a:active
+{
+font-weight: bold;
+text-decoration: none;
+}
+a:link
+{
+color: #FC0;
+}
+a:visited
+{
+color: #666;
+}
+a:hover, a:active
+{
+color: #666;
+}
+
+/* headers */
+h1
+{
+position: relative;
+width: 760px;
+height: 83px;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/buddha/header.gif) no-repeat 0 0;
+}
+h2
+{
+margin-left: 200px;
+padding: 20px;
+border-bottom: 1px solid #efefef;
+margin-bottom: 10px;
+}
+h2, h3, h4, h5, h6
+{
+text-transform: lowercase;
+}
+
+#container
+{
+width: 760px;
+}
+
+#navigation
+{
+float: left;
+position: relative;
+z-index: 50;
+background: transparent url(../images/styles/buddha/buddha.jpg) no-repeat 1px 0;
+width: 200px;
+margin: -20px 0;
+padding-top: 200px;
+}
+#navigation ul
+{
+margin-top: -3px;
+padding: 30px 10px;
+background: transparent url(../images/styles/buddha/select.gif) no-repeat 0 0;
+}
+#navigation ul li, #sub_information ul li
+{
+margin: 12px 0;
+}
+#navigation ul li a, #sub_information ul li a
+{
+padding-left: 20px;
+background: transparent url(../images/styles/buddha/bul2.gif) no-repeat 2px 1px;
+}
+#navigation ul li a:hover, #sub_information ul li a:hover
+{
+background: transparent url(../images/styles/buddha/bul1.gif) no-repeat 2px 1px;
+}
+
+#content, #content_2
+{
+float: right;
+width: 520px;
+padding: 0 20px;
+margin-bottom: 10px;
+min-height: 500px;
+}
+#page-id-home #content
+{
+min-height: 0;
+}
+#content_2
+{
+border-top: 1px solid #efefef;
+padding-top: 10px;
+margin-top: 10px;
+}
+#sub_information
+{
+float: left;
+width: 199px;
+}
+#sub_information h3
+{
+border: 1px solid #efefef;
+border-left: 0;
+border-right: 0;
+padding: 5px 10px;
+background: transparent url(../images/styles/buddha/bul2.gif) no-repeat 182px 50%;
+}
+#sub_information ul, #sub_information dl, #sub_information p
+{
+padding-left: 10px;
+}
+#footer
+{
+clear: both;
+margin: 0 0 25px 200px;
+padding: 5px 20px;
+background-color: #EFEFEF;
+}
+#footer ul li
+{
+display: inline;
+margin: 0 3px;
+}
+
+/* other stuff */
+#accesskeys_list
+{
+margin-bottom: 20px;
+}
+#accesskeys_list dt
+{
+clear: left;
+float: left;
+width: 10px;
+}
+#accesskeys_list dt
+{
+padding: 5px 0 5px 10px;
+}
+#accesskeys_list dd
+{
+padding: 5px 0;
+}
+#accesskeys_list dd:before
+{
+content: "- ";
+}

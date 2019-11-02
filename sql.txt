@@ -1,0 +1,214 @@
+# phpMyAdmin SQL Dump
+# version 2.5.3
+# http://www.phpmyadmin.net
+#
+# Host: localhost
+# Generation Time: Jan 20, 2005 at 11:19 AM
+# Server version: 4.0.15
+# PHP Version: 4.3.3
+# 
+# Database : `final_year`
+# 
+
+# --------------------------------------------------------
+
+CREATE TABLE `entities` (
+  `name_code` varchar(15) NOT NULL default '',
+  `number_code` int(11) NOT NULL default '0',
+  `description` varchar(255) NOT NULL default ''
+) TYPE=MyISAM;
+
+INSERT INTO `entities` VALUES ('lsquo', 0, 'Left Single Quote');
+INSERT INTO `entities` VALUES ('rsquo', 0, 'Right Single Quote');
+INSERT INTO `entities` VALUES ('sbquo', 0, 'Single Low-9 Quote');
+INSERT INTO `entities` VALUES ('ldquo', 0, 'Left Double Quote');
+INSERT INTO `entities` VALUES ('rdquo', 0, 'Right Double Quote');
+INSERT INTO `entities` VALUES ('bdquo', 0, 'Double Low-9 Quote');
+INSERT INTO `entities` VALUES ('dagger', 0, 'Dagger');
+INSERT INTO `entities` VALUES ('Dagger', 0, 'Double Dagger');
+INSERT INTO `entities` VALUES ('permil', 0, 'Per Mill Sign');
+INSERT INTO `entities` VALUES ('lsaquo', 0, 'Single Left-Pointing Angle Quote');
+INSERT INTO `entities` VALUES ('rsaquo', 0, 'Single Right-Pointing Angle Quote');
+INSERT INTO `entities` VALUES ('spades', 0, 'Black Spade Suit');
+INSERT INTO `entities` VALUES ('clubs', 0, 'Black Club Suit');
+INSERT INTO `entities` VALUES ('hearts', 0, 'Black Heart Suit');
+INSERT INTO `entities` VALUES ('diams', 0, 'Black Diamond Suit');
+INSERT INTO `entities` VALUES ('oline', 0, 'Overline');
+INSERT INTO `entities` VALUES ('larr', 0, 'Leftward Arrow');
+INSERT INTO `entities` VALUES ('uarr', 0, 'Upward Arrow');
+INSERT INTO `entities` VALUES ('rarr', 0, 'Rightward Arrow');
+INSERT INTO `entities` VALUES ('darr', 0, 'Downward Arrow');
+INSERT INTO `entities` VALUES ('trade', 0, 'Trademark Sign');
+INSERT INTO `entities` VALUES ('', 33, 'Exclamation Mark');
+INSERT INTO `entities` VALUES ('quot', 34, 'Double Quotation Mark');
+INSERT INTO `entities` VALUES ('', 35, 'Number Sign');
+INSERT INTO `entities` VALUES ('', 36, 'Dollar Sign');
+INSERT INTO `entities` VALUES ('', 37, 'Percent Sign');
+INSERT INTO `entities` VALUES ('amp', 38, 'Ampersand');
+INSERT INTO `entities` VALUES ('', 39, 'Apostrophe');
+INSERT INTO `entities` VALUES ('', 40, 'Left Parenthesis');
+INSERT INTO `entities` VALUES ('', 41, 'Right Parenthesis');
+INSERT INTO `entities` VALUES ('', 42, 'Asterisk');
+INSERT INTO `entities` VALUES ('', 43, 'Plus Sign');
+INSERT INTO `entities` VALUES ('', 44, 'Comma');
+INSERT INTO `entities` VALUES ('', 45, 'Hyphen');
+INSERT INTO `entities` VALUES ('', 46, 'Period');
+INSERT INTO `entities` VALUES ('frasl', 47, 'Slash');
+INSERT INTO `entities` VALUES ('', 48, 'Zero');
+INSERT INTO `entities` VALUES ('', 49, 'One');
+INSERT INTO `entities` VALUES ('', 50, 'Two');
+INSERT INTO `entities` VALUES ('', 51, 'Three');
+INSERT INTO `entities` VALUES ('', 52, 'Four');
+INSERT INTO `entities` VALUES ('', 53, 'Five');
+INSERT INTO `entities` VALUES ('', 54, 'Six');
+INSERT INTO `entities` VALUES ('', 55, 'Seven');
+INSERT INTO `entities` VALUES ('', 56, 'Eight');
+INSERT INTO `entities` VALUES ('', 57, 'Nine');
+INSERT INTO `entities` VALUES ('', 58, 'Colon');
+INSERT INTO `entities` VALUES ('', 59, 'Semicolon');
+INSERT INTO `entities` VALUES ('lt', 60, 'Less-Than Sign');
+INSERT INTO `entities` VALUES ('', 61, 'Equals Sign');
+INSERT INTO `entities` VALUES ('gt', 62, 'Greater-Than Sign');
+INSERT INTO `entities` VALUES ('', 63, 'Question Mark');
+INSERT INTO `entities` VALUES ('', 64, 'At Sign');
+INSERT INTO `entities` VALUES ('', 65, 'Uppercase A');
+INSERT INTO `entities` VALUES ('', 66, 'Uppercase B');
+INSERT INTO `entities` VALUES ('', 67, 'Uppercase C');
+INSERT INTO `entities` VALUES ('', 68, 'Uppercase D');
+INSERT INTO `entities` VALUES ('', 69, 'Uppercase E');
+INSERT INTO `entities` VALUES ('', 70, 'Uppercase F');
+INSERT INTO `entities` VALUES ('', 71, 'Uppercase G');
+INSERT INTO `entities` VALUES ('', 72, 'Uppercase H');
+INSERT INTO `entities` VALUES ('', 73, 'Uppercase I');
+INSERT INTO `entities` VALUES ('', 74, 'Uppercase J');
+INSERT INTO `entities` VALUES ('', 75, 'Uppercase K');
+INSERT INTO `entities` VALUES ('', 76, 'Uppercase L');
+INSERT INTO `entities` VALUES ('', 77, 'Uppercase M');
+INSERT INTO `entities` VALUES ('', 78, 'Uppercase N');
+INSERT INTO `entities` VALUES ('', 79, 'Uppercase O');
+INSERT INTO `entities` VALUES ('', 80, 'Uppercase P');
+INSERT INTO `entities` VALUES ('', 81, 'Uppercase Q');
+INSERT INTO `entities` VALUES ('', 82, 'Uppercase R');
+INSERT INTO `entities` VALUES ('', 83, 'Uppercase S');
+INSERT INTO `entities` VALUES ('', 84, 'Uppercase T');
+INSERT INTO `entities` VALUES ('', 85, 'Uppercase U');
+INSERT INTO `entities` VALUES ('', 86, 'Uppercase V');
+INSERT INTO `entities` VALUES ('', 87, 'Uppercase W');
+INSERT INTO `entities` VALUES ('', 88, 'Uppercase X');
+INSERT INTO `entities` VALUES ('', 89, 'Uppercase Y');
+INSERT INTO `entities` VALUES ('', 90, 'Uppercase Z');
+INSERT INTO `entities` VALUES ('', 91, 'Left Square Bracket');
+INSERT INTO `entities` VALUES ('', 92, 'Backslash');
+INSERT INTO `entities` VALUES ('', 93, 'Right Square Bracket');
+INSERT INTO `entities` VALUES ('', 94, 'Caret');
+INSERT INTO `entities` VALUES ('', 95, 'Horizontal Bar (Underscore)');
+INSERT INTO `entities` VALUES ('', 96, 'Grave Accent');
+INSERT INTO `entities` VALUES ('', 97, 'Lowercase a');
+INSERT INTO `entities` VALUES ('', 98, 'Lowercase b');
+INSERT INTO `entities` VALUES ('', 99, 'Lowercase c');
+INSERT INTO `entities` VALUES ('', 100, 'Lowercase d');
+INSERT INTO `entities` VALUES ('', 101, 'Lowercase e');
+INSERT INTO `entities` VALUES ('', 102, 'Lowercase f');
+INSERT INTO `entities` VALUES ('', 103, 'Lowercase g');
+INSERT INTO `entities` VALUES ('', 104, 'Lowercase h');
+INSERT INTO `entities` VALUES ('', 105, 'Lowercase i');
+INSERT INTO `entities` VALUES ('', 106, 'Lowercase j');
+INSERT INTO `entities` VALUES ('', 107, 'Lowercase k');
+INSERT INTO `entities` VALUES ('', 108, 'Lowercase l');
+INSERT INTO `entities` VALUES ('', 109, 'Lowercase m');
+INSERT INTO `entities` VALUES ('', 110, 'Lowercase n');
+INSERT INTO `entities` VALUES ('', 111, 'Lowercase o');
+INSERT INTO `entities` VALUES ('', 112, 'Lowercase p');
+INSERT INTO `entities` VALUES ('', 113, 'Lowercase q');
+INSERT INTO `entities` VALUES ('', 114, 'Lowercase r');
+INSERT INTO `entities` VALUES ('', 115, 'Lowercase s');
+INSERT INTO `entities` VALUES ('', 116, 'Lowercase t');
+INSERT INTO `entities` VALUES ('', 117, 'Lowercase u');
+INSERT INTO `entities` VALUES ('', 118, 'Lowercase v');
+INSERT INTO `entities` VALUES ('', 119, 'Lowercase w');
+INSERT INTO `entities` VALUES ('', 120, 'Lowercase x');
+INSERT INTO `entities` VALUES ('', 121, 'Lowercase y');
+INSERT INTO `entities` VALUES ('', 122, 'Lowercase z');
+INSERT INTO `entities` VALUES ('', 123, 'Left Curly Brace');
+INSERT INTO `entities` VALUES ('', 124, 'Vertical Bar');
+INSERT INTO `entities` VALUES ('', 125, 'Right Curly Brace');
+INSERT INTO `entities` VALUES ('', 126, 'Tilde');
+INSERT INTO `entities` VALUES ('ndash', 150, 'En Dash');
+INSERT INTO `entities` VALUES ('mdash', 151, 'Em Dash');
+INSERT INTO `entities` VALUES ('nbsp', 160, 'Nonbreaking Space');
+INSERT INTO `entities` VALUES ('iexcl', 161, 'Inverted Exclamation');
+INSERT INTO `entities` VALUES ('cent', 162, 'Cent Sign');
+INSERT INTO `entities` VALUES ('pound', 163, 'Pound Sterling');
+INSERT INTO `entities` VALUES ('curren', 164, 'General Currency Sign');
+INSERT INTO `entities` VALUES ('yen', 165, 'Yen Sign');
+INSERT INTO `entities` VALUES ('brvbar', 166, 'Broken Vertical Bar');
+INSERT INTO `entities` VALUES ('sect', 167, 'Section Sign');
+INSERT INTO `entities` VALUES ('uml', 168, 'Umlaut');
+INSERT INTO `entities` VALUES ('copy', 169, 'Copyright');
+INSERT INTO `entities` VALUES ('ordf', 170, 'Feminine Ordinal');
+INSERT INTO `entities` VALUES ('laquo', 171, 'Left Angle Quote');
+INSERT INTO `entities` VALUES ('not', 172, 'Not Sign');
+INSERT INTO `entities` VALUES ('shy', 173, 'Soft Hyphen');
+INSERT INTO `entities` VALUES ('reg', 174, 'Registered Trademark');
+INSERT INTO `entities` VALUES ('macr', 175, 'Macron Accent');
+INSERT INTO `entities` VALUES ('deg', 176, 'Degree Sign');
+INSERT INTO `entities` VALUES ('plusmn', 177, 'Plus Or Minus');
+INSERT INTO `entities` VALUES ('sup2', 178, 'Superscript Two');
+INSERT INTO `entities` VALUES ('sup3', 179, 'Superscript Three');
+INSERT INTO `entities` VALUES ('acute', 180, 'Acute Accent');
+INSERT INTO `entities` VALUES ('micro', 181, 'Micro SignAcute Accent');
+INSERT INTO `entities` VALUES ('para', 182, 'Paragraph Sign');
+INSERT INTO `entities` VALUES ('middot', 183, 'Middle Dot');
+INSERT INTO `entities` VALUES ('cedil', 184, 'Cedilla');
+INSERT INTO `entities` VALUES ('sup1', 185, 'Superscript One');
+INSERT INTO `entities` VALUES ('ordm', 186, 'Masculine Ordinal');
+INSERT INTO `entities` VALUES ('raquo', 187, 'Right Angle Quote');
+INSERT INTO `entities` VALUES ('frac14', 188, 'One-Fourth');
+INSERT INTO `entities` VALUES ('frac12', 189, 'One-Half');
+INSERT INTO `entities` VALUES ('frac34', 190, 'Three-Fourths');
+
+# --------------------------------------------------------
+
+CREATE TABLE `glossary` (
+  `term` varchar(16) NOT NULL default '',
+  `definition` varchar(128) NOT NULL default ''
+) TYPE=MyISAM;
+
+INSERT INTO `glossary` VALUES ('HTML', 'HyperText Markup Language');
+INSERT INTO `glossary` VALUES ('XHTML', 'Extensible HyperText Markup Language');
+INSERT INTO `glossary` VALUES ('CSS', 'Cascading Style Sheets');
+INSERT INTO `glossary` VALUES ('W3C', 'World Wide Web Consortium');
+INSERT INTO `glossary` VALUES ('WCAG', 'Web Content Accessibility Guidelines');
+INSERT INTO `glossary` VALUES ('WAI', 'Web Accessibility Initiative');
+INSERT INTO `glossary` VALUES ('WWW', 'World Wide Web');
+INSERT INTO `glossary` VALUES ('ALT', 'Alternative Text');
+INSERT INTO `glossary` VALUES ('PDA', 'Personal Digital Assistant');
+INSERT INTO `glossary` VALUES ('DTD', 'Document Type Declaration or Document Type Definition');
+INSERT INTO `glossary` VALUES ('FIR', 'Fahrner Image Replacement');
+INSERT INTO `glossary` VALUES ('IR', 'Image Replacement');
+INSERT INTO `glossary` VALUES ('MSIE', 'Microsoft Internet Explorer');
+INSERT INTO `glossary` VALUES ('HTTP', 'Hyper Text Transfer Protocol');
+INSERT INTO `glossary` VALUES ('ISO', 'International Organization for Standardization');
+INSERT INTO `glossary` VALUES ('PNG', 'Portable Network Graphic');
+INSERT INTO `glossary` VALUES ('RFC', 'Request For Comment');
+INSERT INTO `glossary` VALUES ('UA', 'User Agent');
+INSERT INTO `glossary` VALUES ('URL', 'Uniform Resource Locator');
+INSERT INTO `glossary` VALUES ('PHP', 'PHP: Hypertext Preprocessor');
+INSERT INTO `glossary` VALUES ('IE', 'Internet Explorer');
+INSERT INTO `glossary` VALUES ('ASP', 'Active Server Page');
+INSERT INTO `glossary` VALUES ('MT', 'Movable Type');
+INSERT INTO `glossary` VALUES ('WSA', 'Web Standards Awards');
+INSERT INTO `glossary` VALUES ('ISP', 'Internet Service Provider');
+INSERT INTO `glossary` VALUES ('AOL', 'America Online');
+INSERT INTO `glossary` VALUES ('Mac', 'Macintosh');
+INSERT INTO `glossary` VALUES ('Win', 'Windows');
+INSERT INTO `glossary` VALUES ('MIME', 'Multipurpose Internet Mail Extension');
+INSERT INTO `glossary` VALUES ('SGML', 'Standard Generalized Markup Language');
+INSERT INTO `glossary` VALUES ('GIF', 'Graphic Interchange Format');
+INSERT INTO `glossary` VALUES ('XSLT', 'Extensible Stylesheet Language Transformation');
+INSERT INTO `glossary` VALUES ('XML', 'Extensible Markup Language');
+INSERT INTO `glossary` VALUES ('DDA', 'Disability Discrimination Act');
+INSERT INTO `glossary` VALUES ('UK', 'United Kingdom');
+INSERT INTO `glossary` VALUES ('URI', 'Uniform Resource Identifier');
+INSERT INTO `glossary` VALUES ('DOM', 'Document Object Model');
+INSERT INTO `glossary` VALUES ('FAQ', 'Frequently Asked Question');

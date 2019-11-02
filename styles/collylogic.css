@@ -1,0 +1,239 @@
+@import url(general.css);
+
+#skip_links, #print_preview, h2
+{
+display: none;
+}
+
+html
+{
+background: #EDEAEB url(../images/styles/collylogic/bg.gif) fixed repeat;
+}
+body
+{
+margin: 0 auto;
+color: #333;
+text-align: center;
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 0.8em;
+}
+
+p
+{
+margin: 1em 0;
+}
+ul li
+{
+list-style: none;
+}
+dl dt
+{
+font-weight: bold;
+}
+
+/* headings */
+h1
+{
+position: relative;
+z-index: 60;
+height: 142px;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/collylogic/logo.jpg) no-repeat 0 0;
+}
+h3
+{
+color: #E78818;
+}
+#sub_information h3
+{
+height: 12px;
+border-bottom: 1px solid #EDEAEB;
+padding-left: 3px;
+color: #E78818;
+font: bold 9px verdana, lucida, sans-serif;
+}
+
+/* links */
+a:link
+{
+background-color: transparent;
+text-decoration: underline;
+color: #666
+}
+a:hover
+{
+background-color: #ffc;
+text-decoration: underline #ccc;
+color: #900
+}
+a:visited
+{
+background-color: transparent;
+text-decoration: underline;
+color: #666
+}
+
+/* containers */
+#container
+{
+text-align: left;
+margin: 0 auto;
+width: 752px;
+padding: 0 0 10px 10px;
+background: #fff;
+color: #333;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+}
+#navigation
+{
+position: relative;
+z-index: 90;
+margin-top: -20px;
+padding-bottom: 40px;
+_margin-top: 0;
+}
+#navigation ul li
+{
+float: left;
+text-align:center;
+}
+#navigation ul li a
+{
+width: 62px;
+height: 18px;
+padding-right: 20px;
+color: #666;
+text-decoration: none;
+display: block;
+text-align: center;
+font-size: 10px;
+}
+#navigation ul li a:hover
+{
+color: #900;
+background-color: transparent;
+text-decoration: underline;
+}
+#navigation ul li a:active, #navigation ul li.active a
+{
+background: #fff;
+color: #666;
+}
+#content_container
+{
+clear: left;
+}
+#content, #content_2
+{
+background: #fff url(../images/styles/collylogic/patternfade.gif) repeat-y;
+padding: 10px 25px 10px 10px;
+width: 446px;
+float: left;
+border: 1px solid #EDEAEB;
+margin-bottom: 15px;
+}
+#sub_information
+{
+width: 249px;
+float: right;
+border: 1px solid #EDEAEB;
+margin-right: 10px;
+_margin-right: 5px;
+}
+#sub_information ul, #sub_information p, #sub_information dl
+{
+padding-left: 3px;
+}
+#page-id-home #sub_information
+{
+margin-top: -357px;
+}
+#footer
+{
+clear: both;
+background: #fff url(../images/styles/collylogic/blurgrad.gif) no-repeat 0 0;
+padding-top: 30px;
+font-size: 9px;
+letter-spacing: 0.09em;
+}
+#footer ul
+{
+background: #fff url(../images/styles/collylogic/blurgrad.gif) no-repeat 0 100%;
+padding: 0 0 20px 20px;
+}
+#footer ul li
+{
+display: inline;
+padding: 0 10px;
+}
+
+
+#sub_information ul
+{
+margin: 2px 2px 2px 2px;
+padding: 3px;
+border: 1px solid #EDEAEB;
+background-color: #fff;
+color: #666;
+}
+#sub_information li a
+{
+line-height: 150%;
+text-decoration: none;
+display: block;
+width: 239px;
+}
+#sub_information li a:link
+{
+color: #666;
+background: url(../images/styles/collylogic/ticks_grey.gif);
+}
+#sub_information li a:active
+{
+color: #666;
+background: url(../images/styles/collylogic/ticks_grey.gif);
+}
+#sub_information li a:hover
+{
+color: #900;
+background: url(../images/styles/collylogic/ticks_grey.gif) 0 -20px;
+}
+#sub_information li a:visited
+{
+background: url(../images/styles/collylogic/ticks_grey.gif) 0 -40px;
+}
+#sub_information ul ul
+{
+margin-left: -15px;
+}
+
+
+#accesskeys_list
+{
+margin-bottom: 20px;
+border-bottom: 1px solid #EDEAEB;
+}
+#accesskeys_list dt
+{
+width: 20px;
+clear: left;
+float: left;
+background-color: #D7D7D7;
+text-align: center;
+margin: 0 5px;
+}
+#accesskeys_list dd
+{
+background-color: #EFEFEF;
+margin: 5px;
+}
+table td
+{
+border-color: #EDEAEB;
+}

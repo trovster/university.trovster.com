@@ -1,0 +1,200 @@
+@import url(general.css);
+
+#skip_links, #print_preview, h2
+{
+display: none;
+}
+
+html, body
+{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size: 80%;
+background-color: #369;
+}
+html
+{
+padding-top: 114px;
+background: #369 url(../images/styles/hotmail/advert.gif) no-repeat 50% 24px;
+}
+body
+{
+padding-top: 12px;
+}
+
+p
+{
+margin: 1em 0;
+}
+ul li
+{
+list-style: none;
+}
+dl dt
+{
+font-weight: bold;
+}
+ol
+{
+margin-left: 25px;
+}
+
+/* headers */
+h1
+{
+float: left;
+position: relative;
+width: 205px;
+height: 41px;
+font-size: 10px;
+margin-right: -3px;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/hotmail/title.gif) no-repeat 0 0;
+}
+
+/* containers */
+#navigation
+{
+height: 41px;
+padding-left: 310px;
+_padding-left: 110px;
+background: #369 url(../images/styles/hotmail/tab_slide.gif) no-repeat 200px 0;
+_background-position: 0 0;
+border-bottom: 1px solid #87B3D0;
+}
+#navigation ul
+{
+padding-top: 7px;
+}
+#navigation ul li
+{
+float: left;
+height: 15px;
+}
+#navigation ul li a
+{
+display: block;
+text-decoration: none;
+color: #fff;
+padding: 11px 8px 10px;
+background: transparent url(../images/styles/hotmail/tab_bg.gif) repeat-x;
+border-right: 1px solid #0C5280;
+border-left: 1px solid #87B3D0;
+}
+#navigation ul li.active a
+{
+background: transparent url(../images/styles/hotmail/tab_bg_on.gif) repeat-x;
+padding-bottom: 12px;
+}
+
+#container
+{
+clear: left;
+}
+#content_container
+{
+border-top: 20px solid #4791C5;
+background-color: #DBEAF5;
+position: relative;
+}
+#content, #content_2, #page-id-home #sub_information
+{
+padding: 10px;
+padding-top: 30px;
+}
+#sub_information
+{
+position: absolute;
+top: 0;
+_top: 20px;
+width: 100%;
+background: transparent url(../images/styles/hotmail/sub_bg.gif) repeat-x;
+}
+#sub_information h3
+{
+display: none;
+}
+#sub_information ul
+{
+padding: 2px 10px;
+}
+#sub_information ul li
+{
+float: left;
+}
+#sub_information ul li a
+{
+display: block;
+color: #000;
+text-decoration: none;
+padding: 3px 5px;
+border: 1px solid transparent;
+_border-color: #AED4F0;
+margin-bottom: 2px;
+}
+#sub_information ul li a:hover
+{
+background-color: #fff;
+border: 1px solid #000;
+}
+#page-id-home #sub_information, #page-id-accessibility-statement #sub_information
+{
+position: relative;
+top: 0;
+background: none;
+width: auto;
+}
+
+#footer
+{
+padding: 20px 0 10px;
+border-bottom: 1px solid #87B3D0;
+background-color: #369;
+}
+#footer ul li
+{
+display: inline;
+border-right: 1px solid #fff;
+padding: 0 5px 0 4px;
+}
+#footer ul li.last
+{
+border: 0;
+}
+#footer ul li a
+{
+color: #fff;
+}
+
+#accesskeys_list
+{
+padding-bottom: 20px;
+margin-left: 15px;
+}
+#accesskeys_list dt
+{
+width: 20px;
+float: left;
+margin-right: 5px;
+}
+#page-id-accessibility-statement #sub_information ul
+{
+display: none;
+}
+/*
+#page-id-accessibility-statement #sub_information ul
+{
+clear: left;
+margin-top: 30px;
+margin-left: -5px;
+display: block;
+}
+#page-id-accessibility-statement #content
+{
+margin-top: 30px;
+}
+*/

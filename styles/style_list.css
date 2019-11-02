@@ -1,0 +1,14 @@
+.style_list dl
+{
+margin-top: 2px;
+margin-bottom: 10px;
+}
+.style_list dl dt, .style_list dl dd
+{
+line-height: 15px;
+}
+.style_list dt
+{
+float: left;
+margin-right: 5px;
+}

@@ -1,0 +1,280 @@
+@import url(general.css);
+
+html,body
+{
+background: #730000 url(../images/styles/twenty4/bg.gif) repeat fixed;
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+min-height: 100%;
+padding-bottom: 1px;
+}
+#skip_links, #print_preview
+{
+display: none;
+}
+
+/* general styles */
+#container, h1, .item
+{
+border: 1px solid #000;
+}
+p, pre
+{
+margin: 1em 0;
+}
+p
+{
+font-size: 1em;
+text-align: justify;
+clear: left;
+}
+ul
+{
+list-style: none;
+}
+ol
+{
+margin-left: 25px;
+}
+dl dt
+{
+font-weight: bold;
+}
+blockquote
+{
+margin-left: 10px;
+padding-left: 10px;
+border-left: 3px solid #ccc;
+font-style: italic;
+margin-bottom: 2em;
+}
+pre
+{
+border: 1px solid #aaa;
+padding: 5px;
+}
+code
+{
+font-size: 1.5em;
+}
+
+/* headers */
+h1
+{
+position: relative;
+width: 768px;
+height: 150px;
+border: 1px solid #000;
+margin-bottom: 10px;
+font-size: 1em;
+background-color: #730000;
+}
+h1 span
+{
+position: absolute;
+width: 100%;
+height: 100%;
+background: transparent url(../images/styles/twenty4/header.gif) no-repeat 0 0;
+}
+h1 a
+{
+font-size: 2em;
+color: #fff !important;
+text-decoration: none;
+}
+h2
+{
+font-size: 1.6em;
+color: #2B2B2B;
+letter-spacing: -1px;
+margin: 25px 0 5px;
+background: transparent url(../images/styles/twenty4/star.gif) no-repeat 0 0;
+padding: 3px 0 0 25px;
+}
+h3
+{
+font-size: 1.2em;
+}
+
+/* containers */
+#container
+{
+position: relative;
+margin: 25px auto 0;
+padding: 10px;
+background-color: #fff;
+width: 770px;
+font: 0.7em/1.4em Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+#content_container, #sub_information, #navigation ul, #footer
+{
+border: 1px solid #ccc;
+background-color: #EBEBEB;
+padding: 10px;
+}
+#content_container
+{
+width: 520px;
+min-height: 300px;
+}
+
+#footer
+{
+clear: both;
+padding: 10px;
+margin-top: 10px;
+background-color: #EBEBEB;
+border: 1px solid #ccc;
+}
+#footer li
+{
+font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+color: #000000;
+padding: 5px;
+display: inline;
+}
+#footer li a
+{
+color: #D73332;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 1px dotted #D73332;
+}
+
+#sub_information
+{
+position: absolute;
+top: 172px;
+right: 10px;
+padding-top: 16em;
+width: 200px;
+}
+#sub_information h3
+{
+font-size: 5px;
+position: relative;
+width: 100%;
+height: 21px;
+}
+#sub_information h3 + p
+{
+margin-top: 0;
+}
+#sub_information h3 span
+{
+position: absolute;
+width: 100%;
+height: 21px;
+background: transparent url(../images/styles/twenty4/categories.gif) no-repeat 0 0;
+}
+#sub_information p
+{
+text-align: left;
+}
+
+
+/* navigation */
+#navigation
+{
+float: right;
+width: 200px;
+_width: 190px;
+padding-top: 17px;
+background: transparent url(../images/styles/twenty4/sections.gif) no-repeat 0 0;
+z-index: 50;
+position: relative;
+margin: 31px 11px;
+}
+#navigation ul, #sub_information ul, #sub_information p, #content, #page-id-home #content_2,
+#accesskeys_list
+{
+background-color: #F5F5F5;
+padding: 10px;
+border-left: 1px solid #333;
+border-right: 1px solid #ccc;
+border-top: 1px solid #333;
+border-bottom: 1px solid #ccc;
+}
+#navigation ul:hover, #sub_information ul:hover, #sub_information p:hover, #content:hover, #page-id-home #content_2:hover,
+#accesskeys_list:hover
+{
+background-color: #fff;
+}
+
+#page-id-home #content_2
+{
+margin-top: 10px;
+}
+
+#page-id-home #sub_information p, #page-id-home #sub_information h3
+{
+display: none;
+}
+
+/*
+#page-id-home #sub_information p, #page-id-home #sub_information h3
+{
+position: absolute;
+top: 312px;
+left: -538px;
+width: 498px;
+}
+#page-id-home #sub_information p
+{
+top: 300px;
+padding-top: 40px;
+}
+#page-id-home #sub_information h3
+{
+font-size: 1.2em;
+left: -528px;
+z-index: 50;
+}
+#page-id-home #sub_information h3 span
+{
+background-image: none;
+}
+#page-id-home #sub_information
+{
+height: 20px;
+}
+*/
+
+
+/* links */
+a:link
+{
+color: #D73332;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 1px dotted #D73332;
+}
+a:visited
+{
+color: #D73332;
+font-weight: normal;
+text-decoration: none;
+border-bottom: 1px dotted #D73332;
+}
+a:active, a:hover
+{
+color: #730000;
+text-decoration: none;
+border-bottom: 1px dotted #730000;
+}
+#sub_information a, #navigation a
+{
+color: #000;
+text-decoration: none;
+border-bottom: 1px dotted #000;
+}
+
+#abbreviations_list
+{
+height: 19em;
+}
+#abbreviations_list li
+{
+float: left;
+padding: 3px 0;
+width: 85px;
+}
