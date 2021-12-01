@@ -49,14 +49,12 @@ if(isset($_GET['article']))
 <meta name="robots" content="index,follow" />
 
 <?php
-if($section=='home')
-{
+if($section=='home') {
 	echo '<title>Unrestricted Access: An Investigation Into The Use Of Web Standards &amp; Accessibility</title>'."\n\n";
 }
-else
-{
+else {
 	echo '<title>';
-	
+
 	if(isset($article))
 	{
 		echo ucwords(str_replace('-',' ',$article)).' | ';
@@ -67,23 +65,14 @@ else
 $css_style = $_COOKIE['css_style'];
 $print = $_GET['print'];
 
-if(stristr($_SERVER['HTTP_HOST'],'trovster.com'))
-{
-	echo '<base href="http://university.trovster.com/" />'."\n\n";
-}
-else
-{
-	echo '<base href="http://'.$server_url.'/" />'."\n\n";
-}
+echo '<base href="http://'.$server_url.'/" />'."\n\n";
 
 echo '<!-- main link stylesheets -->'."\n";
 
-if(stristr($_SERVER['REQUEST_URI'],'/print') || $print)
-{
+if(stristr($_SERVER['REQUEST_URI'],'/print') || $print) {
 	echo '<link rel="stylesheet" type="text/css" media="screen" href="styles/print.css" />'."\n";
 }
-else
-{
+else {
 	echo '<link rel="stylesheet" type="text/css" media="screen" href="';
 	if(stristr($css_style,'http://'))
 	{
