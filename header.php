@@ -65,7 +65,7 @@ else {
 $css_style = $_COOKIE['css_style'];
 $print = $_GET['print'];
 
-echo '<base href="http://'.$server_url.'/" />'."\n\n";
+echo '<base href="//'.$server_url.'/" />'."\n\n";
 
 echo '<!-- main link stylesheets -->'."\n";
 
@@ -74,7 +74,7 @@ if(stristr($_SERVER['REQUEST_URI'],'/print') || $print) {
 }
 else {
 	echo '<link rel="stylesheet" type="text/css" media="screen" href="';
-	if(stristr($css_style,'http://'))
+	if(stristr($css_style,'http://') || stristr($css_style,'https://'))
 	{
 		echo $css_style.'"';
 	}

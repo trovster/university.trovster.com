@@ -76,7 +76,7 @@ font-size: 90%;
 }
 #content a[href^=""]:after
 {
-content: " ( http://university.trovster.com/" attr(href) " ) "; /* add my domain name to the links */
+content: " ( https://university.trovster.com/" attr(href) " ) "; /* add my domain name to the links */
 }
 
 #content a[href^="http://"]:after
