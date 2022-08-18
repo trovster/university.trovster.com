@@ -14,7 +14,7 @@ and treat it strictly. In quirks mode the browser expects incorrect markup and t
 treat quirks mode and malformed <abbr title="HyperText Markup Language">HTML</abbr> differently. Forcing a browser into quirks mode improves its
 rendering of the site and importantly how it applies <abbr title="Cascading Style Sheets">CSS</abbr> rules.</p>
 
-<p>There are numerous ways to change the rendering mode of a page. Use a strict <abbr title="HyperText Markup Language">HTML</abbr> 4 <code>doctype</code> or 
+<p>There are numerous ways to change the rendering mode of a page. Use a strict <abbr title="HyperText Markup Language">HTML</abbr> 4 <code>doctype</code> or
 <strong>any</strong> <abbr title="Extensible HyperText Markup Language">XHTML</abbr> <code>doctype</code> without the
 <abbr title="Extensible Markup Language">XML</abbr> declaration. The following examples will cause browsers to render in standards mode.</p>
 
@@ -55,9 +55,7 @@ that the problem lies with <abbr title="Internet Explorer">IE</abbr>'s rendering
 <abbr title="Internet Explorer">IE</abbr> quirks.</p>
 
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Developing With Web Standards</dt>
@@ -102,7 +100,7 @@ require_once('further_reading.php');
 	<dd>
 	<blockquote cite="http://www.alistapart.com/articles/doctype/">
 	<p>This little article will provide you with <code>DOCTYPE</code>s that work, and explain the practical,
-	real–world effect of these seemingly abstract tags.</p>
+	realï¿½world effect of these seemingly abstract tags.</p>
 	<p><cite><a href="http://www.alistapart.com/articles/doctype/" title="Fix Your Site With the Right DOCTYPE!">
 	http://www.alistapart.com/articles/doctype/</a></cite></p>
 	</blockquote>
@@ -122,16 +120,3 @@ require_once('further_reading.php');
 	</dd>
 </dl>
 
-
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

@@ -44,9 +44,7 @@ identification they can be referenced with interal links using the id name.</p>
 <abbr title="HyperText Markup Language">HTML</abbr> elements and in client side scripting techniques such as Javascript.</p>
 
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt><abbr title="Cascading Style Sheet">CSS</abbr> Classes <abbr title="Verses">vs</abbr> ID</dt>

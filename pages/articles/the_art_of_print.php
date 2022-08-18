@@ -1,12 +1,6 @@
 <h3><span></span>The Art Of Print</h3>
 
-<h4 id="introduction"><span></span>Introduction</h4>
-
-<p>...need to write this...</p>
-
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>CSS Design: Going to Print</dt>
@@ -21,7 +15,7 @@ require_once('further_reading.php');
 	http://www.alistapart.com/articles/goingtoprint/</a></cite></p>
 	</blockquote>
 	</dd>
-	
+
 	<dt><abbr title="Cascading Style Sheet">CSS</abbr>, Printing and User Expectation</dt>
 	<dd>
 	<blockquote cite="http://www.themaninblue.com/writing/perspective/2004/07/09/">

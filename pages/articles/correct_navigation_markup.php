@@ -183,19 +183,17 @@ ul#navigation li a:hover {
 #page-section3 #section3 a, #page-section4 #section4 a {
   cursor: text;
 }
- 
+
 div#content {
   clear: both;
-} 
+}
 </code></pre>
 
 <p><a href="/pages/articles/examples/simple_menu.html">An example of the simple semantic navigation</a> shows
 the application of the techniques discussed above. The styling on this page is extremely simple. For more complex stylings please read
 <a href="http://css.maxdesign.com.au/listamatic/" title="Listamatic: One List, Many Options">the examples at Listamatic</a>.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Turning a list into a navigation bar</dt>
@@ -213,7 +211,7 @@ require_once('further_reading.php');
 	<dt>Listamatic: One List, Many Options</dt>
 	<dd>
 	<blockquote cite="http://css.maxdesign.com.au/listamatic/">
-	<p>Can you take a simple list and use different Cascading Style Sheets to create radically different list options? The Listamatic shows the power of 
+	<p>Can you take a simple list and use different Cascading Style Sheets to create radically different list options? The Listamatic shows the power of
 	<abbr title="Cascading Style Sheets">CSS</abbr> when applied to one simple list using samples from Eric Meyer, ProjectSeven, SimpleBits, Jeffrey Zeldman
 	and others. Choose from one of the samples below:</p>
 	<p><cite><a href="http://css.maxdesign.com.au/listamatic/" title="Listamatic: One List, Many Options">
@@ -233,15 +231,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

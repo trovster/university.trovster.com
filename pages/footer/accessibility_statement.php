@@ -13,7 +13,7 @@
 <h4 id="browser_compatability"><span></span>Browser Compatability</h4>
 
 <p>This site has been designed to work with all browsers on all platforms. Design considerations have been taken to make sure
-the sites works on all modern browsers, as well as depreciating effectively in older browsers. The site has been design to work well with 
+the sites works on all modern browsers, as well as depreciating effectively in older browsers. The site has been design to work well with
 text-only browsers and with assistive technologies, such as screen readers.</p>
 
 <p>The site will also work on small screen devices such as <abbr title="Personal Digital Assistant">PDA</abbr>s and the latest mobile phones.</p>
@@ -50,12 +50,8 @@ or choose not to, view images. Style sheets are used to hide the D-links in visu
 describe information concerned with the link in more detail. No links contain javascript and therefore work if this scripting
 is turned off. No links open new windows.</p>
 
-<!--
-<p>All external links are marked with a <img src="images/styles/external_link.gif" alt="square with an arrow" /> icon after them.</p>
--->
-
 <p>Within the main content, all links are underlined. On mouseover the link is highlighted with a different colour,
-and the underline is removed. Visisted links are light and unvisited links are bold.</p>-->
+and the underline is removed. Visisted links are light and unvisited links are bold.</p>
 
 
 <h4 id="printing"><span></span>Printing</h4>
@@ -75,10 +71,6 @@ The following differences are used:</p>
 <h4 id="scripts"><span></span>Scripts</h4>
 
 <p>There are no scripts running on this website.</p>
-<!--
-<p>Eric Meyer's <a href="http://www.meyerweb.com/eric/tools/s5/">Simple Standards-Based Slide Show System</a>
-has been implemented on articles to allow for a slideshow presentation when the medium "projection" is selected.</p>
--->
 
 <!-- end of div id #content -->
 </div>

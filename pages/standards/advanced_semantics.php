@@ -139,13 +139,11 @@ and style using selectors like the follow:</p>
 <p>This method requires a lot of reduntant code to allow for the support. The <code>title</code> also should be repeated on both the <code>abbr</code>
 and <code>span</code> elements, though can only be applied to the <code>span</code>.</p>
 
-<p>An automated method exists which uses Javascript to repeat the method above but as the page is loaded, client-side. This can be found in an 
+<p>An automated method exists which uses Javascript to repeat the method above but as the page is loaded, client-side. This can be found in an
 external articled titled
 <a href="http://www.sovavsiti.cz/css/abbr.html" title="View the Styling &lt;abbr&gt; in IE article">Styling &lt;abbr&gt; in <abbr title="Internet Explorer">IE</abbr></a>.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Forgotten Element Types</dt>
@@ -210,15 +208,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

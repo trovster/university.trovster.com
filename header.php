@@ -1,64 +1,29 @@
-<?php
-require_once ('includes/general.php');
-require_once ('includes/database.php');
-
-$server_url = htmlentities($_SERVER['HTTP_HOST']);
-$current_url = htmlentities('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-$current_url_local = htmlentities($_SERVER['REQUEST_URI']);
-
-if(isset($_GET['section']))
-{
-	$section = $_GET['section'];
-}
-else
-{
-	$section = 'home';
-}
-
-if(isset($_GET['interviewee']))
-{
-	$interviewee = $_GET['interviewee'];
-}
-
-if(isset($_GET['chart']))
-{
-	$chart = $_GET['chart'];
-}
-
-if(isset($_GET['article']))
-{
-	$article = $_GET['article'];
-}
-
-?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-uk">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_GB">
 
-<head lang="en-uk">
+<head lang="en_GB">
 
 <!-- meta http-equiv -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta http-equiv="content-language" content="en-uk" />
+<meta http-equiv="content-language" content="en_GB" />
 
 <!-- meta name -->
 <meta name="author" content="Trevor Morris" />
 <meta name="copyright" content="Trevor Morris" />
 <meta name="keywords" content="standards, html, css, xhtml, web, accessibility, wcag, articles, interviews" />
-<meta name="description" content="" />
-<meta name="DC.title" content="" />
+<meta name="description" content="An Investigation Into The Use Of Web Standards &amp; Accessibility" />
 <meta name="robots" content="index,follow" />
 
 <?php
-if($section=='home') {
+if($section == 'home') {
 	echo '<title>Unrestricted Access: An Investigation Into The Use Of Web Standards &amp; Accessibility</title>'."\n\n";
-}
-else {
+} else {
 	echo '<title>';
 
-	if(isset($article))
-	{
+	if(isset($article)) {
 		echo ucwords(str_replace('-',' ',$article)).' | ';
 	}
+
 	echo ucwords(str_replace('_',' ',$section)).' | Unrestricted Access</title>'."\n\n";
 }
 
@@ -71,8 +36,7 @@ echo '<!-- main link stylesheets -->'."\n";
 
 if(stristr($_SERVER['REQUEST_URI'],'/print') || $print) {
 	echo '<link rel="stylesheet" type="text/css" media="screen" href="styles/print.css" />'."\n";
-}
-else {
+} else {
 	echo '<link rel="stylesheet" type="text/css" media="screen" href="';
 	if(stristr($css_style,'http://') || stristr($css_style,'https://'))
 	{
@@ -92,8 +56,7 @@ else {
 
 <!-- page specific stylesheets -->
 <?php
-if($article=='semantic-conversations')
-{
+if($article == 'semantic-conversations') {
 	echo '<link rel="stylesheet" type="text/css" href="pages/articles/styles/conversation.css" media="screen" />';
 }
 ?>
@@ -142,21 +105,21 @@ if($article=='semantic-conversations')
 <div id="container">
 
 <ul id="skip_links">
-<li><a href="<?=$current_url_local;?>#content_container" title="Go to the main content">Skip To Content</a></li>
-<li><a href="<?=$current_url_local;?>#sub_information" title="Go to the sub information area of this page">Skip To Page Links</a></li>
-<li><a href="<?=$current_url_local;?>#footer" title="Go to the footer information">Skip To Footer</a></li>
+	<li><a href="<?=$current_url_local;?>#content_container" title="Go to the main content">Skip To Content</a></li>
+	<li><a href="<?=$current_url_local;?>#sub_information" title="Go to the sub information area of this page">Skip To Page Links</a></li>
+	<li><a href="<?=$current_url_local;?>#footer" title="Go to the footer information">Skip To Footer</a></li>
 </ul>
 
 <h1><a href="" title="Back to the home page"><span></span>Unrestricted Access</a></h1>
 
 <div id="navigation">
 	<ul>
-	<li<?php if($section=='home') echo ' class="active"'; ?>><a href="home/" title="View the homepage" accesskey="h" tabindex="10">Home</a></li>
-	<li<?php if($section=='web_standards') echo ' class="active"'; ?>><a href="web_standards/" title="View the Web Standards section" accesskey="s" tabindex="20">Web Standards</a></li>
-	<li<?php if($section=='web_accessibility') echo ' class="active"'; ?>><a href="web_accessibility/" title="View the Web Accessibility section" accesskey="a" tabindex="30">Web Accessibility</a></li>
-	<li<?php if($section=='development_articles') echo ' class="active"'; ?>><a href="development_articles/" title="View the Development Articles" accesskey="d" tabindex="40">Development Articles</a></li>
-	<li<?php if($section=='interviews') echo ' class="active"'; ?>><a href="interviews/" title="View the Interviews section" accesskey="i" tabindex="50">Interviews</a></li>
-	<li<?php if($section=='references'){ echo ' class="active last"';} else{echo ' class="last"';} ?>><a href="references/" title="View the Reference Charts" accesskey="r" tabindex="60">References</a></li>
+		<li<?php if($section=='home') echo ' class="active"'; ?>><a href="home/" title="View the homepage" accesskey="h" tabindex="10">Home</a></li>
+		<li<?php if($section=='web_standards') echo ' class="active"'; ?>><a href="web_standards/" title="View the Web Standards section" accesskey="s" tabindex="20">Web Standards</a></li>
+		<li<?php if($section=='web_accessibility') echo ' class="active"'; ?>><a href="web_accessibility/" title="View the Web Accessibility section" accesskey="a" tabindex="30">Web Accessibility</a></li>
+		<li<?php if($section=='development_articles') echo ' class="active"'; ?>><a href="development_articles/" title="View the Development Articles" accesskey="d" tabindex="40">Development Articles</a></li>
+		<li<?php if($section=='interviews') echo ' class="active"'; ?>><a href="interviews/" title="View the Interviews section" accesskey="i" tabindex="50">Interviews</a></li>
+		<li<?php if($section=='references'){ echo ' class="active last"';} else{echo ' class="last"';} ?>><a href="references/" title="View the Reference Charts" accesskey="r" tabindex="60">References</a></li>
 	</ul>
 </div>
 
@@ -165,17 +128,11 @@ if($article=='semantic-conversations')
 <h2><span></span><?php echo ucwords(str_replace('_',' ',$section));?></h2>
 
 <?php
-if(strstr($current_url_local, '/print'))
-{
+
+if(strstr($current_url_local, '/print')) {
 	echo '<p id="print_preview"><a href="'.$current_url_local.'" title="View how this page will appear when printed">View print preview</a></p>'."\n";
-}
-elseif(strrchr($_SERVER['REQUEST_URI'], '/')=='/')
-{
+} elseif(strrchr($_SERVER['REQUEST_URI'], '/')=='/') {
 	echo '<p id="print_preview"><a href="'.$current_url_local.'print/" title="View how this page will appear when printed">View print preview</a></p>'."\n";
-}
-else
-{
+} else {
 	echo '<p id="print_preview"><a href="'.$current_url_local.'/print/" title="View how this page will appear when printed">View print preview</a></p>'."\n";
 }
-?>
-

@@ -71,7 +71,7 @@ the <abbr title="World Wide Web">WWW</abbr>. Making a website accessible doesn't
 graphical interaction. Graphical websites can be extremely accessible and conform to the highest level of the
 <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>.</p>
 
-<p>It may seem that making an accessible website takes a lot of time and that there are a lot of different rules to follow. People may also argue that making a 
+<p>It may seem that making an accessible website takes a lot of time and that there are a lot of different rules to follow. People may also argue that making a
 website accessible restricts possibilities of certain layouts and a heavy use of images.</p>
 
 <p>If you follow certain simple rules, write semantic markup and use <abbr title="Cascading Style Sheets">CSS</abbr> to present your design then it'll
@@ -80,9 +80,7 @@ become clear that a complex yet accessible website is fairly straight foward to 
 <p>Keeping accessibility in mind when building a website doesn't just benefit disabled people. Research has proven that an accessible page is
 navigated by all testers quickly.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Web Accessibility Initiative</dt>
@@ -106,15 +104,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

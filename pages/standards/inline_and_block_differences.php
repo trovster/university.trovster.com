@@ -85,9 +85,7 @@ However, vertical padding and margins are ignored along with height and width.</
 <p>A more definitive collection inline and block <abbr title="HyperText Markup Language">HTML</abbr> 4 elements can be found in the references below.</p>
 
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Block vs. Inline</dt>
@@ -96,7 +94,7 @@ require_once('further_reading.php');
 	<p>We start off gently with a comparison between the concepts of block and inline in <abbr title="HyperText Markup Language">HTML</abbr>
 	and <abbr title="Cascading Style Sheets">CSS</abbr>, respectively. In
 	<a href="http://www.autisticcuckoo.net/archive.php?id=2005/01/12/block-vs-inline-2" title="Block vs. Inline - Part 2">part 2</a>
-	we'll look at the block box model, which is fairly well known by now, and the thrilling finale in 
+	we'll look at the block box model, which is fairly well known by now, and the thrilling finale in
 	<a href="http://www.autisticcuckoo.net/archive.php?id=2005/01/13/block-vs-inline-3" title="Block vs. Inline - Part 3">part 3</a> deals with the
 	esoteric details of inline boxes.</p>
 	<p><cite><a href="http://www.autisticcuckoo.net/archive.php?id=2005/01/11/block-vs-inline-1" title="Block vs. Inline, Part 1">
@@ -150,15 +148,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

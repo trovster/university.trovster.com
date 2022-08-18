@@ -52,18 +52,4 @@ targets is an increasing priority for many large online retailers as laws are no
 <p>With the combination of all these practices coupled with a user-friendly design a page should be accessible to a huge majority of web users.
 Also, using web standards saves you money. It's more economical!</p>
 
-<?php
-require_once('further_reading.php');
-?>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->
+<?php require_once('further_reading.php'); ?>

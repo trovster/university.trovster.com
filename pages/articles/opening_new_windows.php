@@ -1,13 +1,7 @@
 <h3><span></span>Opening New Windows</h3>
 
-<h4 id="introduction"><span></span>Introduction</h4>
 
-<p>...need to write this...</p>
-
-
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Accessible Pop-up Links</dt>

@@ -122,9 +122,7 @@ is contained within one file and be can viewed simply via "view source". <strong
 
 <h4 id="browser_compatibility"><span>Browser Compatibility</span></h4>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Linking Style Sheets to <abbr title="Hypertext Markup Language">HTML</abbr></dt>
@@ -167,15 +165,3 @@ require_once('further_reading.php');
 	<p>A reference chart documenting different methods of including stylesheets and which browsers apply them.</p>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

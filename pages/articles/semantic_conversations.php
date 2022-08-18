@@ -230,9 +230,7 @@ content: "";
 <p>This method provides increased semantic meaning by combining both ideas. It provides more control than the plain <code>q</code> and
 <code>cite</code> example, but has more meaning than purely using a definition list.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Definition Lists &mdash; Misused or Misunderstood?</dt>

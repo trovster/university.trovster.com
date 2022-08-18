@@ -103,9 +103,7 @@ accessible pages should become easy.</p>
 <p>The most common problem when creating a semantic page is knowing all the elements. There is a
 <a href="references/html">chart of all the available elements</a> under the reference section.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt><abbr title="World Wide Web Consortium">W3C</abbr> Semantic Web</dt>
@@ -147,23 +145,10 @@ require_once('further_reading.php');
 	<dd>
 	<blockquote cite="http://www.mozilla.org/contribute/writing/markup">
 	<p>The purpose of this document is to define a rich vocabulary of semantic classes whose presentation can be
-	specified in site-wide style sheets—enough to be able to write a long, involved, well-styled document without once writing a
+	specified in site-wide style sheetsï¿½enough to be able to write a long, involved, well-styled document without once writing a
 	<abbr title="Cascading Style Sheets">CSS</abbr> rule.</p>
 	<p><cite><a href="http://www.mozilla.org/contribute/writing/markup" title="mozilla.org Markup Reference">
 	http://www.mozilla.org/contribute/writing/markup</a></cite></p>
 	</blockquote>
 	</dd>
 </dl>
-
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

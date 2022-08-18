@@ -17,9 +17,7 @@
 
 <pre><code class="example">Example Example</code></pre>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Title of Page</dt>

@@ -21,9 +21,7 @@ to meet a certain level of accessibility which is described in the <abbr title="
 <p>There is an article called <a href="web_standards/importance-of-standards" title="The Importance of Web Standards">
 Importance Of Standards</a> which discusses why developers should choose to learn about web standards.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Why Web Standards <abbr title="Frequently Asked Question">FAQ</abbr>'s</dt>
@@ -36,15 +34,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

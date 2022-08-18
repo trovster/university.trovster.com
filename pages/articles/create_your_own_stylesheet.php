@@ -213,9 +213,7 @@ This is then followed by the following table:</p>
 </fieldset>
 </form>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>3d CSS Zen Garden</dt>
@@ -231,15 +229,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="" title="Title of page"></a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

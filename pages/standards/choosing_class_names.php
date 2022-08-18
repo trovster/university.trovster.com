@@ -53,9 +53,7 @@ also help people who use custom stylesheets to override certain styles to improv
 the current design. Check this by reading through the code to check whether you can work out what each element does and not what it looks like.
 If you can do this then the class/id names are good.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>What's in a Name</dt>

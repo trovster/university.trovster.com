@@ -103,7 +103,7 @@ colour filters to choose from and options such as disabling image filtering.</p>
 website in as many different browsers as possible. It may also be necessary, depending on site traffic, to test your site on different versions of
 <abbr title="Internet Explorer">IE</abbr>. To achieve this <a href="http://www.quirksmode.org/browsers/multipleie.html" title="Running multiple versions of IE">
 read the Quirks Mode's article how to run multiple versions of <abbr title="Internet Explorer">IE</abbr>.</a> Checking a website in numerous browsers and different
-platforms is impracticable for many people. 
+platforms is impracticable for many people.
 <a href="http://www.browsercam.com/" title="BrowserCam: Screen capture and Remote Access service for cross platform compatibility testing and HTML design quality assurance.">
 Browsercam</a> is a great tool to solve this problem.</p>
 
@@ -116,7 +116,7 @@ there are hundreds of little additions which can easily be intergrated into it's
 Features a lot of tools and extras for power users including mouse gestures and a popup stopper. It also comes with integrated mail,
 news and chat clients. The software is adware, which means it display adverts on the browser unless paid for.</li>
 
-<li><a href="http://www.mozilla.org/products/mozilla1.x/" title="Mozilla Internet Suite Homepage">Mozilla</a> - 
+<li><a href="http://www.mozilla.org/products/mozilla1.x/" title="Mozilla Internet Suite Homepage">Mozilla</a> -
 A complete internet suite with browser, email client, newsgroup client, <abbr title="Internet Relay Chat">IRC</abbr>
 chat client, and <abbr title="Hypertext Markup Language">HTML</abbr> editing. Based on the gecko engine which is also used
 on Netscape Navigator and Firefox.</li>
@@ -160,9 +160,7 @@ operating system shortcuts.</p>
 <a href="http://www.chrispederick.com/work/firefox/webdeveloper/" title="Extension for Mozilla Firefox">web developer toolbar for Firefox</a> help increase
 the basic fundamentals of building an accessible website, however, they do not replace human interaction and extensive user testing.</p>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Web Accessibility Evaluation Tools Need People</dt>
@@ -200,16 +198,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

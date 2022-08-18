@@ -94,27 +94,14 @@ http://www.idcide.com/pages/res_term.htm#cookies</a></cite></p>
 
 <p>In these solutions the cookie is used to stored the user-desired stylesheet. Cookies are used with both methods and must be enabled for either method to work.</p>
 
-<!--
-<h4 id="javascript"><span></span>Javascript</h4>
-
-<p>...need to write this...</p>
-
-
-<h4 id="serverside"><span></span>Serverside &mdash; <abbr title="PHP: Hypertext Preprocessor">PHP</abbr></h4>
-
-<p>...need to write this...</p>
--->
-
 <h4 id="style_this"><span></span>Style This</h4>
 
 <p>This website uses the <abbr title="PHP: Hypertext Preprocessor">PHP</abbr> style switcher discussed above. This sites style sheet changer can be
-accessed via the colophon section at the bottom of the page or via this the following link - 
+accessed via the colophon section at the bottom of the page or via this the following link -
 <a href="colophon/#style_changer" title="This sites style switcher">http://<?=$server_url;?>/final/colophon/#style_changer</a>.</p>
 
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Build a PHP Switcher</dt>
@@ -126,7 +113,7 @@ require_once('further_reading.php');
 	<p><cite><a href="http://www.alistapart.com/articles/phpswitch/" title="Build a PHP Switcher">http://www.alistapart.com/articles/phpswitch/</a></cite></p>
 	</blockquote>
 	</dd>
-	
+
 	<dt>Alternative Style: Working With Alternate Style Sheets</dt>
 	<dd>
 	<blockquote cite="http://www.alistapart.com/articles/alternate/">

@@ -31,7 +31,7 @@ used media tyles are:</p>
 
 <dt>handheld</dt>
 <dd>- is for mobile devices such as mobile phones and <abbr title="Personal Digital Assistant">PDA</abbr>s.</dd>
-</dl> 
+</dl>
 
 <p>The other media types are:</p>
 
@@ -75,9 +75,7 @@ used media tyles are:</p>
 
 <pre class="html"><code>&lt;link rel="stylesheet" type="text/css" href="style_for_all.css" media="all" /&gt;</code></pre>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>W3C: Media Types</dt>
@@ -89,15 +87,3 @@ require_once('further_reading.php');
 	</blockquote>
 	</dd>
 </dl>
-
-<!--
-<dl>
-	<dt>Title of Page</dt>
-	<dd>
-	<blockquote cite="">
-	<p>Quote</p>
-	<p><cite><a href="#" title="Title of Page">URL</a></cite></p>
-	</blockquote>
-	</dd>
-</dl>
--->

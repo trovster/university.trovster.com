@@ -64,7 +64,7 @@ representation of the image, then hiding the text when the style sheet is enable
 <pre><code class="html">&lt;h1&gt;&lt;span&gt;Microsoft&lt;/span&gt;&lt;/h1&gt;</code></pre>
 
 <pre><code class="css">h1
-{ 
+{
 background: url("hello_world.gif") no-repeat;
 height: 35px;
 }
@@ -75,9 +75,7 @@ display: none;
 }
 </code></pre>
 
-<?php
-require_once('further_reading.php');
-?>
+<?php require_once('further_reading.php'); ?>
 
 <dl>
 	<dt>Facts and Opinion About Fahrner Image Replacement</dt>
